@@ -21,59 +21,54 @@
     public static void main(String[] args) {
 
         int altura;
+        int nuevaAltura;
 
         Scanner sc = new Scanner(System.in);
 
         System.out.print("\nIndica la altura: ");
         altura=sc.nextInt();
 
-        //Pirámide normal
-        for (int i = 0; i < altura ; i++) {
-            //espacios
-            for (int j = 0; j < altura-i ; j++) {
-                System.out.print(" ");
-            }
-
-            //carácter
-            for (int l=0; l<i+1; l++) {
-                if ((l==0) || (l==i)) {
-                    System.out.print("* ");
-                } else {
-                    System.out.print("  ");
-                }
-            }
-
-            //salto
-            System.out.println("");
-        }
-
-        //fila última
-        for (int l = 0; l <= altura; l++) {
-            System.out.print("* ");
-        }
-
-/*
-        //Pirámide invertida
-        for (int i = altura; i >= 0 ; i++) {
-            //espacios
-            for (int j = 0; j <  ; j--) {
-                System.out.print(" ");
-            }
-
-            //carácter
-            for (int l=0; l<i+1; l++) {
-                if ((l==0) || (l==i)) {
-                    System.out.print("* ");
-                } else {
-                    System.out.print("  ");
-                }
-            }
-
-            //salto
-            System.out.println("");
-        }
-*/
-
         sc.close();
+
+        nuevaAltura=altura*2;
+
+        //Pirámide normal
+        for (int i = 0; i < nuevaAltura ; i++) {
+            //Primer triángulo -> normal
+            if (altura<=nuevaAltura/2) {
+                //espacios
+                for (int j = 0; j < altura-i ; j++) {
+                    System.out.print(" ");
+                }
+                //carácter
+                for (int l=0; l<i+1; l++) {
+                    if ((l==0) || (l==i)) {
+                        System.out.print("* ");
+                    } else {
+                        System.out.print("  ");
+                    }
+                }
+            //Segundo triángulo -> invertido
+            } else {
+                //Pirámide invertida
+                for (int k = 0; k < altura ; k++) {
+                    //espacios
+                    for (int n = 0; n < i - 1; n++) {
+                        System.out.print(" ");
+                    }
+
+                    //carácter
+                    for (int m = 0; m < i + 1; m++) {
+                        if ((m == 0) || (m == i)) {
+                            System.out.print("* ");
+                        } else {
+                            System.out.print("  ");
+                        }
+                    }
+                }
+            }
+            //salto de línea
+            System.out.println("");
+        }
     }
 }
