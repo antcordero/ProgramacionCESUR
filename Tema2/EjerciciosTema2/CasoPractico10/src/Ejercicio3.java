@@ -41,13 +41,15 @@ public class Ejercicio3 {
         do {
             System.out.print("Pago que desea realizar este mes: ");
             pago=sc.nextDouble();
-        } while (pago<0);
+        } while (pago<0 || pago>(deuda+compra) || pago > deuda);
 
         //Operaciones
         //comprasTotales=deuda+compra
 
         if (pago<((deuda+compra)*0.85)){
             interesesAcumulados = (deuda+compra)*1.12;
+        } else {
+            deuda-=pago;
         }
 
         //Resultados
