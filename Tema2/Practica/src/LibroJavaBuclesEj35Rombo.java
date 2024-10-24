@@ -1,22 +1,17 @@
-import java.util.Scanner;
+    /*
+    * Ejemplo:
+    * Por favor, introduzca la altura del rombo: 5
+    *   *
+    *  * *
+    * *   *
+    *  * *
+    *   *
+    *
+    * */
 
-/*
-     * Ejercicio 35
-     * Realiza un programa que pinte una X hecha de asteriscos. El programa debe
-     * pedir la altura. Se debe comprobar que la altura sea un número impar mayor o
-     * igual a 3, en caso contrario se debe mostrar un mensaje de error.
-     *
-     * Ejemplo:
-     * Por favor, introduzca la altura del rombo: 5
-     *
-     *  *   *
-     *   * *
-     *    *
-     *   * *
-     *  *   *
-     *
-     */
-public class LibroJavaBuclesEj35 {
+    import java.util.Scanner;
+
+    public class LibroJavaBuclesEj35Rombo {
 
     public static void main(String[] args) {
 
@@ -29,8 +24,29 @@ public class LibroJavaBuclesEj35 {
 
         sc.close();
 
-        //Pirámide invertida
+        //Pirámide normal
         for (int i = 0; i < altura/2 ; i++) {
+            //Primer triángulo -> normal
+
+            //espacios
+            for (int j = 0; j < (altura/2) - i; j++) {
+                System.out.print(" ");
+            }
+            //carácter
+            for (int l = 0; l < i + 1; l++) {
+                if ((l == 0) || (l == i)) {
+                    System.out.print("* ");
+                } else {
+                    System.out.print("  ");
+                }
+            }
+            //salto de línea
+            System.out.println("");
+        }
+
+        //Segundo triángulo -> invertido
+        //Pirámide invertida
+        for (int i = 0; i <= altura/2 ; i++) {
             //espacios
             for (int n = 0; n <= i - 1; n++) {
                 System.out.print(" ");
@@ -47,24 +63,5 @@ public class LibroJavaBuclesEj35 {
             //salto de línea
             System.out.println("");
         }
-
-        //Pirámide normal
-        for (int i = 0; i <= altura/2 ; i++) {
-            //espacios
-            for (int j = 0; j < (altura/2) - i; j++) {
-                System.out.print(" ");
-            }
-            //carácter
-            for (int l = 0; l < i + 1; l++) {
-                if ((l == 0) || (l == i)) {
-                    System.out.print("* ");
-                } else {
-                    System.out.print("  ");
-                }
-            }
-            //salto de línea
-            System.out.println("");
-        }
     }
-
 }
