@@ -49,7 +49,6 @@ public class Coche {
     public String getSeguro() {
         return seguro;
     }
-
     public void setSeguro(String seguro) {
         this.seguro = seguro;
     }
