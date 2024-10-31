@@ -6,6 +6,8 @@ public class CP04Ejercicio4 {
         int a;
         int b;
         int suma=0;
+        int sumaNueva=0;
+        int x=3;
 
         Scanner sc = new Scanner(System.in);
 
@@ -25,9 +27,14 @@ public class CP04Ejercicio4 {
                 suma += (j/a);
             }
         } else if (a<b) {
-
-            suma = (b-a) * ()
+            for (int i=2; i<=20 ; i+=2) {
+                sumaNueva = (int) (sumaNueva + Math.pow(i,x));
+                x+=3;
+            }
+            suma = (b-a)*sumaNueva;
         }
+
+        System.out.println("Resultado: "+suma);
 
     }
 }
