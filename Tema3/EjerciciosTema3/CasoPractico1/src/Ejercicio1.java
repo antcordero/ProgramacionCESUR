@@ -19,5 +19,14 @@ public class Ejercicio1 {
         p1.mostrarInfo();
         System.out.println("\nPersona 2:");
         p2.mostrarInfo();
+
+        System.out.print("\nAños el siguiente año");
+        p1.cumplirAnios();
+        p2.cumplirAnios();
+        System.out.println("\nPersona 1:");
+        p1.mostrarInfo();
+        System.out.println("\nPersona 2:");
+        p2.mostrarInfo();
+
     }
 }

@@ -32,7 +32,7 @@ public class Persona {
         System.out.printf("Género: %s\n", genero);
     }
 
-    public int cumplirAnios (int edad) {
+    public int cumplirAnios () {
         edad++;
         return edad;
     }
