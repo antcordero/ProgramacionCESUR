@@ -32,8 +32,7 @@ public class Persona {
         System.out.printf("Género: %s\n", genero);
     }
 
-    public int cumplirAnios () {
+    public void cumplirAnios () {
         edad++;
-        return edad;
     }
 }
