@@ -5,32 +5,27 @@ public class EjercicioDaniNumerosPrimosContador {
 
         System.out.println("\nNúmeros Primos de 1 a 100");
 
-        int num;
-        int i = 3;
-        int divisores=0;
+        int divisores = 0;
+        boolean esPrimo = true;
 
-        Scanner sc = new Scanner(System.in);
-        /*
-        System.out.print("\nIntroduce un número tope: ");
-        num=sc.nextInt();
+        for (int num = 2; num <= 100; num++) {
+            esPrimo = true;
 
-        sc.close();
-
-        while (i<=num) {
-            if (num%i==0) {
-                esPrimo=false;
+            //Comprobación esPrimo
+            for (int i = 2; i <= Math.sqrt(num); i++) {
+                if (num % i == 0) {
+                    esPrimo = false;
+                }
             }
-            i++;
+
+            //Si es primo -> imprimir y contar uno más
+            if (esPrimo) {
+                System.out.print(num + " ");
+                divisores++;
+            }
         }
 
-        if (num==1 || !esPrimo) {
-            System.out.println("No es Primo");
-        } else {
-            System.out.println("Es primo");
-        }
-
-        System.out.printf("Total números primos entre 1-100 = %d\n", divisores);
-
-         */
+        System.out.printf("\n\nTotal números primos entre 1 y 100 = %d\n", divisores);
     }
 }
+

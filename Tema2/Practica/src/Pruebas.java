@@ -1,3 +1,6 @@
+import java.util.Random;
+import java.util.Scanner;
+
 public class Pruebas {
 
     /*public static void main(String[] args) {
@@ -89,6 +92,7 @@ public class Pruebas {
 
     //  ########################################
     //  Ejercicio Número Primo - Solución Álvaro
+    /*
     public static void main(String[] args) {
         for (int i = 1; i <= 100; i++) {
             if (esPrimo(i))
@@ -104,6 +108,34 @@ public class Pruebas {
         }
         return true;
     }
+    */
 
+    public static void main(String[] args) {
+
+        int n;
+        boolean parar = true;
+        char opcion;
+
+        Scanner sc = new Scanner(System.in);
+        Random r = new Random();
+
+        System.out.println("Número aleatorio entre 1 y 5");
+
+        do {
+            n=r.nextInt(5)+1;
+            System.out.printf("-> %d\n", n);
+
+            System.out.print("¿Siguiente número? (s/n): ");
+            opcion = sc.next().charAt(0);
+            if (opcion == 'n') {
+                parar = false;
+            } else if (opcion == 's') {
+                parar = true;
+            }
+
+        } while (parar);
+
+        sc.close();
+    }
 
 }
