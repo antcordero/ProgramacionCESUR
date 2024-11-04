@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CP07Ejercicio1TrianguloVacío {
+public class CP07Ejercicio1TrianguloVacio {
     public static void main(String[] args) {
 
         int altura;
