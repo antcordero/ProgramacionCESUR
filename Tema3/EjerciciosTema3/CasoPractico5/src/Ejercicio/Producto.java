@@ -1,3 +1,5 @@
+package Ejercicio;
+
 public class Producto {
 
     private String nombre;
@@ -37,11 +39,13 @@ public class Producto {
         this.cantidadEnStock = cantidadEnStock;
     }
 
-    //Métodos
+    //Métodos del ejercicio
 
     public void venderProducto(int cantidad) {
         if (this.cantidadEnStock<=0) {
-            System.out.println("No hay stock");
+            System.out.println("No hay stock del que vender.");
+        } else if (this.cantidadEnStock<cantidad) {
+            System.out.println("La cantidad que se pide es mayor al stock disponible.");
         } else {
             this.cantidadEnStock-=cantidad;
         }
@@ -51,4 +55,7 @@ public class Producto {
         this.cantidadEnStock+=cantidad;
     }
 
+    public void mostrarStock() {
+        System.out.printf("Stock actual de %s -> %d unidades.\n", this.nombre, this.cantidadEnStock);
+    }
 }
