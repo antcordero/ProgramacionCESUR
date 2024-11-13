@@ -11,21 +11,6 @@ public class Humano extends SerVivo {
     }
 
     //Getters & Setters
-    public String getNombre() {
-        return nombre;
-    }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
 
-    //Métodos
-    @Override
-    public SerVivo mayor(SerVivo otro) {
-        return super.mayor(otro);
-    }
-
-    public String toString(){
-        return "Nombre: " + this.nombre;
-    }
 }
