@@ -3,7 +3,7 @@
 <ul>
   <li>Casos Prácticos 1 a 11</li>
   <li>Prácticas de bucles</li>
-  <li>Parcial TipoB Temas 1 y 2 - 07/11/2024</li>
+  <li><em>Parcial TipoB Temas 1 y 2 - 07/11/2024</em></li>
 </ul>
 
 <h3>Tema 3 - POO</h3>
