@@ -29,6 +29,7 @@ public class Ford extends Car{
     }
 
     //Métodos
+    @Override
     public double getSalePrice() {
         double price = super.getRegularPrice();
         price = price - this.manufacturerDiscount;

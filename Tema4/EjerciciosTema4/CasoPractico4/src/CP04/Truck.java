@@ -19,6 +19,7 @@ public class Truck extends Car{
     }
 
     //Métodos
+    @Override
     public double getSalePrice() {
         double price = super.getRegularPrice();
         if (this.weight>2000) {

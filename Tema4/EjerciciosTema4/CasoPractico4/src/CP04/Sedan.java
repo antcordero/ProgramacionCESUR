@@ -19,6 +19,7 @@ public class Sedan extends Car{
     }
 
     //Métodos
+    @Override
     public double getSalePrice() {
         double price = super.getRegularPrice();
         if (this.lenght>20) {
