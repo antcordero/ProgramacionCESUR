@@ -11,6 +11,10 @@ public class ProductoFresco extends Producto{
         this.pais = pais;
     }
 
+    public ProductoFresco() {
+
+    }
+
     public String getFechaEnvasado() {
         return fechaEnvasado;
     }
@@ -30,9 +34,9 @@ public class ProductoFresco extends Producto{
     //Métodos
     @Override
     public String toString() {
-        return "Fecha Caducidad: " + getFechaCaducidad() +
-                "\nNº Lote: " + getNumeroLote() +
-                "\nFecha Enavasado: " + this.fechaEnvasado +
+        return "Fecha Caducidad: " + super.getFechaCaducidad() +
+                "\nNº Lote: " + super.getNumeroLote() +
+                "\nFecha Envasado: " + this.fechaEnvasado +
                 "\nPaís de procedencia: " + this.pais +
                 "\n";
     }

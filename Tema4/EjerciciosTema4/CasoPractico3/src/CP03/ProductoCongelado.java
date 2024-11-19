@@ -9,6 +9,10 @@ public class ProductoCongelado extends Producto{
         TempCongelacion = tempCongelacion;
     }
 
+    public ProductoCongelado() {
+
+    }
+
     public double getTempCongelacion() {
         return TempCongelacion;
     }
@@ -17,5 +21,11 @@ public class ProductoCongelado extends Producto{
         TempCongelacion = tempCongelacion;
     }
 
-
+    //Métodos
+    @Override
+    public String toString() {
+        return "Fecha Caducidad: " + super.getFechaCaducidad() +
+                "\nNº Lote: " + super.getNumeroLote() +
+                "\nTemperatura Congelación: " + this.TempCongelacion + "ºC\n";
+    }
 }
