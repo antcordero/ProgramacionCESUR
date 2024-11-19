@@ -5,8 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83e8ec08-9d94-4b6e-a579-3bc921b86e78" name="Changes" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CP04/MyOwnAutoShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CP04/MyOwnAutoShop.java" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CasoPractico4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CP04/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CP04/Ford.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CP04/MyOwnAutoShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CP04/Sedan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CP04/Truck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UD04CP04.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasoPractico3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CasoPractico3/.idea/workspace.xml" afterDir="false" />
+>>>>>>> 83245cfb3b1169d4d15616776b8e4058443ae100
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +73,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732019383569</updated>
+<<<<<<< HEAD
       <workItem from="1732019384585" duration="2379000" />
+=======
+      <workItem from="1732019384585" duration="2237000" />
+>>>>>>> 83245cfb3b1169d4d15616776b8e4058443ae100
     </task>
     <servers />
   </component>

@@ -11,7 +11,10 @@ public class MyOwnAutoShop {
         //Ford
         Ford ford1 = new Ford(190, 20000, "rojo", 2024,15);
         Ford ford2 = new Ford(195, 22000, "negro", 2023, 20);
+<<<<<<< HEAD
         //Truck
+=======
+>>>>>>> 83245cfb3b1169d4d15616776b8e4058443ae100
         Truck truck1 = new Truck(160, 45000, "azul", 2500);
 
         //Mostrar precios de venta
