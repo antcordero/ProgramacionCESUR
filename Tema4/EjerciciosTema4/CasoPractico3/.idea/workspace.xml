@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f9798c2-0e41-4ab0-b335-9d03179e5e11" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../CasoPractico4/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CasoPractico4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CasoPractico4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CasoPractico4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CasoPractico4/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CasoPractico4/CasoPractico4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CasoPractico4/src/CP04/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CasoPractico4/src/CP04/Ford.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CasoPractico4/src/CP04/MyOwnAutoShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CasoPractico4/src/CP04/Sedan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CasoPractico4/src/CP04/Truck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CasoPractico4/src/UD04CP04.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CP03/ProductoCongelado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CP03/ProductoCongelado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CP03/ProductoFresco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CP03/ProductoFresco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CP03/ProductoRefrigerado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CP03/ProductoRefrigerado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CP03/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CP03/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1731927924348</updated>
       <workItem from="1731927925379" duration="1551000" />
-      <workItem from="1732016067364" duration="2415000" />
+      <workItem from="1732016067364" duration="3931000" />
     </task>
     <servers />
   </component>
