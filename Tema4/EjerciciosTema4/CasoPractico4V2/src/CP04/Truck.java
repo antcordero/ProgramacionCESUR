@@ -18,10 +18,19 @@ public class Truck extends Car{
         this.weight = weight;
     }
 
+    //toString
+
+
+    @Override
+    public String toString() {
+        return super.toString() + " Truck: " +
+                " Weight = " + weight + "\n";
+    }
+
     //Métodos
     @Override
     public double getSalePrice() {
-        double price = super.getRegularPrice();
+        double price = super.getSalePrice();
         if (this.weight>2000) {
             price=price*0.90;
         } else {

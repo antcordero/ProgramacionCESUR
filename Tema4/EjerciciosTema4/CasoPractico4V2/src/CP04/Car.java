@@ -38,7 +38,19 @@ public class Car {
         this.color = color;
     }
 
-    //Métodos
+    //Método toString de la clase padre para que la hereden las clases hijas
+
+
+    @Override
+    public String toString() {
+        return "Car: " +
+                "Speed = " + speed +
+                ", Price = " + regularPrice +
+                ", Color = " + color + '\'';
+    }
+
+    //Métodos (de aquí cogerán el precio el resto de clases el precio,
+    // no deben coger el regularPrice, sino el método que devuelve ese precio
     public double getSalePrice() {
         return this.regularPrice;
     }

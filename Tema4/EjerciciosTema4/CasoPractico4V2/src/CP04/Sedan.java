@@ -18,10 +18,19 @@ public class Sedan extends Car{
         this.lenght = lenght;
     }
 
+    //toString
+
+
+    @Override
+    public String toString() {
+        return super.toString() + " Sedan: " +
+                " lenght = " + lenght + "\n";
+    }
+
     //Métodos
     @Override
     public double getSalePrice() {
-        double price = super.getRegularPrice();
+        double price = super.getSalePrice();
         if (this.lenght>20) {
             price=price*0.95;
         } else {

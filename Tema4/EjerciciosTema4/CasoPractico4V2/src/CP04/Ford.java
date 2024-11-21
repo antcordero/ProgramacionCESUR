@@ -28,10 +28,20 @@ public class Ford extends Car{
         this.manufacturerDiscount = manufacturerDiscount;
     }
 
+    //toString
+
+
+    @Override
+    public String toString() {
+        return super.toString() + " Ford: " +
+                " year = " + year +
+                ", manufacturerDiscount = " + manufacturerDiscount + "\n";
+    }
+
     //Métodos
     @Override
     public double getSalePrice() {
-        double price = super.getRegularPrice();
+        double price = super.getSalePrice();
         price = price - this.manufacturerDiscount;
         return price;
     }
