@@ -5,17 +5,13 @@ public class Cilindro extends Circulo {
     private float altura;
 
     //Constructores
-    public Cilindro(float x, float y, float radio, float altura) {
-        super(x, y, radio);
-        this.altura = altura;
+    public Cilindro(Circulo c, float a) {
+        super(x, y, radio b);
+        this.altura = a;
     }
 
     public Cilindro() {
-        super();
         this.altura=1;
-    }
-
-    public Cilindro(Circulo base, float v) {
     }
 
     //Getters & Setters
@@ -30,7 +26,7 @@ public class Cilindro extends Circulo {
     //toString
     @Override
     public String toString() {
-        return super.toString() + " Altura = " + "(" + altura + ").";
+        return "Cinlindro de Altura = " + "(" + altura + ") y base = " +  super.toString();
     }
 
     //Métodos

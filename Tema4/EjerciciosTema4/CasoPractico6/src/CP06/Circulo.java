@@ -5,17 +5,13 @@ public class Circulo extends Punto{
     private float radio;
 
     //Constructores
-    public Circulo(float x, float y, float radio) {
-        super(x, y);
+    public Circulo(Punto p, float radio) {
+        super(getX(),getY());
         this.radio = radio;
     }
 
     public Circulo() {
-        super();
         this.radio=1;
-    }
-
-    public Circulo(Punto centroBase, float v) {
     }
 
     //Getters & Setters
@@ -30,12 +26,18 @@ public class Circulo extends Punto{
     //toString
     @Override
     public String toString() {
-        return super.toString() + "Radio = " + "(" + radio + ").";
+        return "Círculo de Radio = " + "(" + radio + ") y centro " + super.toString();
     }
 
-    //Métodos
-    @Override
-    public void transladar(float a, float b) {
-        super.transladar(a, b);
+    public Punto centro() {
+        return new Punto(getX(),getY());
     }
+
+    public void centro (Punto p) {
+        setX(p.getX());
+        setX(p.getY());
+    }
+
+    //El método transladar lo hereda, no hace falta sobreescribirlo.
+
 }

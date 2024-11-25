@@ -12,8 +12,8 @@ public class Punto {
     }
 
     public Punto() {
-        this.x=1;
-        this.y=1;
+        this.x=0;
+        this.y=0;
     }
 
     //Getters & Setters
@@ -35,7 +35,7 @@ public class Punto {
 
     @Override
     public String toString() {
-        return "Punto = (" + x +", " + y +"). ";
+        return "(" + x + ", " + y +"). ";
     }
 
     //Métodos
@@ -44,4 +44,3 @@ public class Punto {
         this.y=b;
     }
 }
-
