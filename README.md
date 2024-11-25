@@ -14,6 +14,6 @@
 
 <h3>Tema 4 - Herencia/Polimorfismo/Sobrecarga/Sobreescritura</h3>
 <ul>
-  <li>Casos Prácticos 1 a ?</li>
+  <li>Casos Prácticos 1 a 7</li>
   <li>Apuntes Herencia/Sobrecarga/Sobreescritura</li>
 </ul>
