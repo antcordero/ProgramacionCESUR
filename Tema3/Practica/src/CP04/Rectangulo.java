@@ -7,12 +7,13 @@ public class Rectangulo {
 
     //Constructor
     public Rectangulo(double alto, double ancho) {
-        if (alto<0 && ancho<0) {
+        if (alto<=0 || ancho<=0) {
             this.alto = 1;
             this.ancho = 1;
         } else {
             this.alto = alto;
-            this.ancho = ancho;}
+            this.ancho = ancho;
+        }
     }
 
     //Getters & Setters
@@ -21,7 +22,7 @@ public class Rectangulo {
     }
 
     public void setAncho(double ancho) {
-
+        this.ancho = ancho;
     }
 
     public double getAlto() {
@@ -29,7 +30,7 @@ public class Rectangulo {
     }
 
     public void setAlto(double alto) {
-
+        this.alto = alto;
     }
 
     //Métodos
