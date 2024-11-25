@@ -5,30 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad956d77-a840-418d-9618-21ea21e55b21" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../CasoPractico5/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico5/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico5/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico5/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico5/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico5/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico5/CasoPractico5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico5/src/CP05/Administrativo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico5/src/CP05/Consultor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico5/src/CP05/Empleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico5/src/CP05/PuestoTrabajo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico5/src/CP05/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico5/src/UD04CP05.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CasoPractico6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CP06/Cilindro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CP06/Circulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CP06/Punto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CP06/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UD04CP06.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CP06/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CP06/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732189432507</updated>
-      <workItem from="1732189433507" duration="4988000" />
+      <workItem from="1732189433507" duration="5287000" />
     </task>
     <servers />
   </component>

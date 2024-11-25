@@ -6,7 +6,7 @@ public class Test {
     public static void main(String[] args) {
 
         System.out.println("\nCaso Práctico 6\n===============\n");
-        /*
+
         //Instancias
         Punto p1 = new Punto(2f,2f);
         Circulo c1 = new Circulo(p1.getX(), p1.getY(), 5f);
@@ -19,7 +19,7 @@ public class Test {
 
         //Transladar
         System.out.println("\nTransladar: ");
-        */
+
         Punto centroBase = new Punto(3.0f, 5.0f);
         Circulo base = new Circulo(centroBase, 4.0f);
         Cilindro miCilindro = new Cilindro(base, 10.0f);
