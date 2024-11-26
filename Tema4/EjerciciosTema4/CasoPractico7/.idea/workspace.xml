@@ -5,6 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e51795de-d111-4b7b-b969-492e56dde939" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../CasoPractico8/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CasoPractico8/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CasoPractico8/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CasoPractico8/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CasoPractico8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CasoPractico8/CasoPractico8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CasoPractico8/src/CP08/EjRectas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CasoPractico8/src/CP08/Punto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CasoPractico8/src/CP08/Vector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CasoPractico8/src/UD04CP08.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfersor/UD04CP06/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfersor/UD04CP06/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfersor/UD04CP06/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfersor/UD04CP06/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfersor/UD04CP06/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfersor/UD04CP06/UD04CP06.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfersor/UD04CP06/src/Cilindro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfersor/UD04CP06/src/Circulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfersor/UD04CP06/src/Punto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfersor/UD04CP06/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfersor/UD04CP07/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfersor/UD04CP07/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfersor/UD04CP07/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfersor/UD04CP07/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfersor/UD04CP07/UD04CP07.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfersor/UD04CP07/src/Actor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfersor/UD04CP07/src/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfersor/UD04CP07/src/Pelicula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfersor/UD04CP07/src/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CasoPractico6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CasoPractico6/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -23,9 +52,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2pKsJw0aFTESloQxegbLoY3fY3S" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -42,7 +71,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/AntonioCorderoMolina/Desktop/Programación/Tema4/EjerciciosTema4/CasoPractico5",
+    "last_opened_file_path": "C:/Users/AntonioCorderoMolina/Desktop/Programación/Tema4/EjerciciosTema4/CasoPractico7",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -62,6 +91,7 @@
       <option name="presentableId" value="Default" />
       <updated>1732526035407</updated>
       <workItem from="1732526036448" duration="4933000" />
+      <workItem from="1732620901127" duration="855000" />
     </task>
     <servers />
   </component>
