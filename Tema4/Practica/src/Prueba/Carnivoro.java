@@ -19,7 +19,7 @@ public class Carnivoro extends Animal{
         System.out.println("El carnivoro está comiendo carne");
     }
 
-    @Override
+    //Sobrecargado
     public void eat(String food) {
         if (food.equals("carne")) {
             System.out.println("El carnivoro disfruta comiendo carne");

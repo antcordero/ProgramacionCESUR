@@ -19,7 +19,7 @@ public class Omnivoro extends Animal {
         System.out.println("El omnivoro está comiendo una dieta variada.");
     }
 
-    @Override
+    //Sobrecargado
     public void eat(String food) {
         System.out.println("El omnivoro está comiendo " + food);
     }
