@@ -14,6 +14,7 @@
 
 <h3>Tema 4 - Herencia/Polimorfismo/Sobrecarga/Sobreescritura</h3>
 <ul>
-  <li>Casos Prácticos 1 a 7</li>
+  <li>Casos Prácticos 1 a 8</li>
   <li>Apuntes Herencia/Sobrecarga/Sobreescritura</li>
+  <li><em>Parcial TipoB Temas 3 y 4 - 28/11/2024</em></li>
 </ul>
