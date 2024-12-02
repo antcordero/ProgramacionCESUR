@@ -1,0 +1,173 @@
+package CP01;
+
+public class Persona {
+
+    private String nombre;
+    private int edad;
+    private String DNI;
+    private Sexo sexo;
+    private double peso;
+    private double altura;
+
+    //Constructores
+    public Persona(String nombre, int edad, String DNI, Sexo sexo, double peso, double altura) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.DNI = DNI;
+        this.sexo = sexo;
+        this.peso = peso;
+        this.altura = altura;
+    }
+    //
+    public Persona() {
+    }
+    //
+    public Persona(String nombre, int edad, Sexo sexo) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.sexo = sexo;
+    }
+
+    //G - S
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    /*
+    public String getDNI() {
+        return DNI;
+    }
+
+    public void setDNI(String DNI) {
+        this.DNI = DNI;
+    }
+    */
+
+    public Sexo getSexo() {
+        return sexo;
+    }
+
+    public void setSexo(Sexo sexo) {
+        this.sexo = sexo;
+    }
+
+    public double getPeso() {
+        return peso;
+    }
+
+    public void setPeso(double peso) {
+        this.peso = peso;
+    }
+
+    public double getAltura() {
+        return altura;
+    }
+
+    public void setAltura(double altura) {
+        this.altura = altura;
+    }
+
+    //toString
+    @Override
+    public String toString() {
+        return "Persona{" +
+                "nombre='" + nombre + '\'' +
+                ", edad=" + edad +
+                ", DNI='" + DNI + '\'' +
+                ", sexo=" + sexo +
+                ", peso=" + peso +
+                ", altura=" + altura +
+                '}';
+    }
+
+    //Métodos
+
+    //Cálculo del IMC: (peso en kg/(altura^2 en m)
+    public int calcularIMC() {
+        double imc = peso/(altura*altura);
+        int resultado;
+
+        if (imc < 18.50) {
+            resultado = -1;
+        } else if (imc>=18.5 && imc<25) {
+            resultado = 0;
+        } else {
+            resultado = 1;
+        }
+
+        return resultado;
+    }
+
+    //Mayor de edad
+    public boolean equals() {
+        boolean resultado;
+
+        if (this.edad<18) {
+            resultado = false;
+        } else {
+            resultado = true;
+        }
+
+        return resultado;
+    }
+
+    //Comprobar sexo
+    public char comprobarSexo(char sexo) {
+        char resultado;
+
+        if (sexo == 'M') {
+            resultado = 'M';
+        } else {
+            resultado = 'H';
+        }
+
+        return resultado;
+    }
+
+    //Generar DNI - 8 cifras
+    public String generaDNI() {
+        String[] secuencia = {"T","R","W","A","G","M","Y","F","P","D","X","B","N","J","Z","S","Q","V","H","L","C","K","E"};
+        String resultado = "";
+        int aleatorio;
+        int aux;
+
+        //Generar número aleatorio de 8 cifras
+        aleatorio = (int) (Math.random()*99999999);
+        //Guardar int provisional para el cálculo
+        aux = aleatorio;
+
+        //Convertir a String
+        while (aleatorio>0) {
+            resultado = aleatorio%10 + resultado ;
+            aleatorio/=10;
+        }
+
+        //Tener en cuenta si es menor de 8 cifras, poner ceros a la izquierda
+        if (resultado.length()<8) {
+            //"Sumar" 0 a la izquierda
+            for (int i = resultado.length(); i < 8; i++) {
+                resultado = "0" + resultado;
+            }
+        }
+
+        //Generar letra
+        // -> Resto de dividir el DNI entre 23. La letra será la posición de la letra en la secuencia:
+        resultado = resultado + secuencia[(aux%23)];
+
+        return resultado;
+    }
+
+}

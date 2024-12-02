@@ -18,3 +18,9 @@
   <li>Apuntes Herencia/Sobrecarga/Sobreescritura</li>
   <li><em>Parcial TipoB Temas 3 y 4 - 28/11/2024</em></li>
 </ul>
+
+<h3>Tema 5- Arrays/Tipo Enumerado</h3>
+<ul>
+  <li>Casos Prácticos 1 a ?</li>
+  <li>Apuntes Arrays/TipoEnumerado</li>
+</ul>
