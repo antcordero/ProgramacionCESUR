@@ -139,7 +139,7 @@ public class Persona {
     }
 
     //Mayor de edad
-    public boolean equals() {
+    public boolean esMayorDeEdad() {
         boolean resultado;
 
         if (this.edad>=18) {

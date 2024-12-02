@@ -63,5 +63,41 @@ public class Test {
         p3.setAltura(160);
 
         sc.close();
+
+        //Pruebas
+        /*
+         * Para cada objeto, deberá comprobar si está en su peso ideal,
+         * si tiene sobrepeso o por debajo de su peso ideal con un mensaje.
+         */
+        System.out.println("Para la persona 1: ");
+        System.out.printf("IMC = %d\n", p1.calcularIMC());
+        System.out.println("Para la persona 2: ");
+        System.out.printf("IMC = %d\n", p2.calcularIMC());
+        System.out.println("Para la persona 3: ");
+        System.out.printf("IMC = %d\n", p3.calcularIMC());
+
+        /*
+         * Indicar para cada objeto si es mayor de edad.
+        */
+        System.out.println("Para la persona 1: ");
+        System.out.print(p1.esMayorDeEdad()
+                ? p1.getNombre() + " es mayor de edad\n"
+                : p1.getNombre() + " es menor de edad\n");
+        System.out.println("Para la persona 1: ");
+        System.out.print(p2.esMayorDeEdad()
+                ? p2.getNombre() + " es mayor de edad\n"
+                : p2.getNombre() + " es menor de edad\n");
+        System.out.println("Para la persona 1: ");
+        System.out.print(p3.esMayorDeEdad()
+                ? p3.getNombre() + " es mayor de edad\n"
+                : p3.getNombre() + " es menor de edad\n");
+
+        /*
+         * Por último, mostrar la información de cada objeto.
+         */
+        System.out.println(p1);
+        System.out.println(p2);
+        System.out.println(p3);
+
     }
 }
