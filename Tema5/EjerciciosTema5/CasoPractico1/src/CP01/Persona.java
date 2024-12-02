@@ -1,5 +1,7 @@
 package CP01;
 
+import java.util.Random;
+
 public class Persona {
 
     private String nombre;
@@ -10,25 +12,35 @@ public class Persona {
     private double altura;
 
     //Constructores
-    public Persona(String nombre, int edad, String DNI, Sexo sexo, double peso, double altura) {
+    public Persona(String nombre, int edad, String DNI, char sexo, double peso, double altura) {
         this.nombre = nombre;
         this.edad = edad;
-        this.DNI = DNI;
-        this.sexo = sexo;
+        this.DNI = generaDNI();
+        comprobarSexo(sexo);
         this.peso = peso;
         this.altura = altura;
     }
     //
     public Persona() {
+        this.nombre = "Sin nombre";
+        this.edad = 0;
+        this.sexo = Sexo.H;
+        this.DNI = generaDNI();
+        this.peso = 50;
+        this.altura = 1.50;
     }
     //
-    public Persona(String nombre, int edad, Sexo sexo) {
+    public Persona(String nombre, int edad, char sexo) {
+        super();
         this.nombre = nombre;
         this.edad = edad;
-        this.sexo = sexo;
+        comprobarSexo(sexo);
+        this.DNI = generaDNI();
+        this.peso = 50;
+        this.altura = 1.50;
     }
 
-    //G - S
+    //Getter - Setters
 
     public String getNombre() {
         return nombre;
@@ -60,8 +72,8 @@ public class Persona {
         return sexo;
     }
 
-    public void setSexo(Sexo sexo) {
-        this.sexo = sexo;
+    public void setSexo(char sexo) {
+        comprobarSexo(sexo);
     }
 
     public double getPeso() {
@@ -83,15 +95,30 @@ public class Persona {
     //toString
     @Override
     public String toString() {
-        return "Persona{" +
-                "nombre='" + nombre + '\'' +
-                ", edad=" + edad +
-                ", DNI='" + DNI + '\'' +
-                ", sexo=" + sexo +
-                ", peso=" + peso +
-                ", altura=" + altura +
-                '}';
+        // Construir el contenido inicial de la representación de la persona
+        String resultado = "Persona { " +
+                "Nombre ='" + nombre + '\'' +
+                ", Edad =" + edad + (edad>=18?" -> Mayor de edad" : " -> Menor de edad") +
+                ", DNI ='" + DNI + '\'' +
+                ", Sexo =" + sexo +
+                ", Peso =" + peso +
+                ", Altura =" + altura;
+
+                // Calcular el IMC y añadir el mensaje
+                int imc = calcularIMC();
+                if (imc == 0) {
+                    resultado += ", Está en el peso ideal";
+                } else if (imc == -1) {
+                    resultado += ", Está por debajo del peso ideal";
+                } else {
+                    resultado += ", Tiene sobrepeso";
+                }
+
+                // Cerrar la toString
+                resultado += " }";
+                return resultado;
     }
+
 
     //Métodos
 
@@ -115,10 +142,10 @@ public class Persona {
     public boolean equals() {
         boolean resultado;
 
-        if (this.edad<18) {
-            resultado = false;
-        } else {
+        if (this.edad>=18) {
             resultado = true;
+        } else {
+            resultado = false;
         }
 
         return resultado;
@@ -145,7 +172,8 @@ public class Persona {
         int aux;
 
         //Generar número aleatorio de 8 cifras
-        aleatorio = (int) (Math.random()*99999999);
+        Random r = new Random();
+        aleatorio = r.nextInt(100000000);;
         //Guardar int provisional para el cálculo
         aux = aleatorio;
 
