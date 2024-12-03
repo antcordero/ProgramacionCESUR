@@ -154,9 +154,9 @@ public class Persona {
     //Comprobar sexo
     public void comprobarSexo(char sexo) {
         if (sexo == 'M') {
-            System.out.print("M");
+            this.sexo=Sexo.M;
         } else {
-            System.out.print("H");
+            this.sexo=Sexo.H;
         }
     }
 
