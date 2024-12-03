@@ -152,16 +152,12 @@ public class Persona {
     }
 
     //Comprobar sexo
-    public char comprobarSexo(char sexo) {
-        char resultado;
-
+    public void comprobarSexo(char sexo) {
         if (sexo == 'M') {
-            resultado = 'M';
+            System.out.print("M");
         } else {
-            resultado = 'H';
+            System.out.print("H");
         }
-
-        return resultado;
     }
 
     //Generar DNI - 8 cifras
