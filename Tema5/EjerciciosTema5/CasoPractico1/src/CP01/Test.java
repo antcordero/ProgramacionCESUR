@@ -42,12 +42,12 @@ public class Test {
         p1.setAltura(altura);
 
         //El segundo objeto obtendrá todos los anteriores menos el peso y la altura
-        System.out.println("Para la persona 2: ");
+        System.out.println("\nPara la persona 2: ");
         Persona p2 = new Persona("Antonio", 26, 'H' );
 
-        System.out.print("Peso:");
+        System.out.print("Peso: ");
         peso = sc.nextDouble();
-        System.out.print("Introduce la altura:");
+        System.out.print("Introduce la altura: ");
         altura = sc.nextDouble();
 
         p2.setPeso(peso);
@@ -69,7 +69,7 @@ public class Test {
          * Para cada objeto, deberá comprobar si está en su peso ideal,
          * si tiene sobrepeso o por debajo de su peso ideal con un mensaje.
          */
-        System.out.println("Para la persona 1: ");
+        System.out.println("\nIMC\n-----\nPara la persona 1: ");
         System.out.printf("IMC = %d\n", p1.calcularIMC());
         System.out.println("Para la persona 2: ");
         System.out.printf("IMC = %d\n", p2.calcularIMC());
@@ -79,15 +79,15 @@ public class Test {
         /*
          * Indicar para cada objeto si es mayor de edad.
         */
-        System.out.println("Para la persona 1: ");
+        System.out.println("\nEdad\n-----\nPara la persona 1: ");
         System.out.print(p1.esMayorDeEdad()
                 ? p1.getNombre() + " es mayor de edad\n"
                 : p1.getNombre() + " es menor de edad\n");
-        System.out.println("Para la persona 1: ");
+        System.out.println("Para la persona 2: ");
         System.out.print(p2.esMayorDeEdad()
                 ? p2.getNombre() + " es mayor de edad\n"
                 : p2.getNombre() + " es menor de edad\n");
-        System.out.println("Para la persona 1: ");
+        System.out.println("Para la persona 3: ");
         System.out.print(p3.esMayorDeEdad()
                 ? p3.getNombre() + " es mayor de edad\n"
                 : p3.getNombre() + " es menor de edad\n");
@@ -95,6 +95,7 @@ public class Test {
         /*
          * Por último, mostrar la información de cada objeto.
          */
+        System.out.println("\nINFO\n-----");
         System.out.println(p1);
         System.out.println(p2);
         System.out.println(p3);

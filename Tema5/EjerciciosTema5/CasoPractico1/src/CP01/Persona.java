@@ -97,9 +97,9 @@ public class Persona {
     public String toString() {
         // Construir el contenido inicial de la representación de la persona
         String resultado = "Persona { " +
-                "Nombre ='" + nombre + '\'' +
+                "Nombre ='" + nombre +
                 ", Edad =" + edad + (edad>=18?" -> Mayor de edad" : " -> Menor de edad") +
-                ", DNI ='" + DNI + '\'' +
+                ", DNI ='" + DNI +
                 ", Sexo =" + sexo +
                 ", Peso =" + peso +
                 ", Altura =" + altura;
@@ -122,14 +122,14 @@ public class Persona {
 
     //Métodos
 
-    //Cálculo del IMC: (peso en kg/(altura^2 en m)
+    //Cálculo del IMC: (peso en kg/(altura^2 en m) - Ejemplo: 75,0/1,78
     public int calcularIMC() {
-        double imc = peso/(altura*altura);
+        double calculo = this.peso/(this.altura*this.altura);
         int resultado;
 
-        if (imc < 18.50) {
+        if (calculo < 18.50) {
             resultado = -1;
-        } else if (imc>=18.5 && imc<25) {
+        } else if (calculo>=18.5 && calculo<25) {
             resultado = 0;
         } else {
             resultado = 1;
