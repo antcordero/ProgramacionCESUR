@@ -1,0 +1,5 @@
+package CP06;
+
+public enum Genero {
+    FICCION, CIENCIA, HISTORIA, DRAMA, TEATRO, COMEDIA, THRILLER, LIRICA
+}
