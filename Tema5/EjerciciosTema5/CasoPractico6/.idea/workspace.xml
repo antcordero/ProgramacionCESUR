@@ -4,9 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD:Tema5/EjerciciosTema5/CasoPractico3/.idea/workspace.xml
+    <list default="true" id="989aa34b-d998-4ceb-8d5d-d529b091ecdd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
     <list default="true" id="aa7583be-524e-477b-a5a3-b590e7532902" name="Changes" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/../CasoPractico5/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CasoPractico5/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CasoPractico6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CP06/Biblioteca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CP06/Ejemplar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CP06/FrecuaenciaPubl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CP06/Genero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CP06/Libro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CP06/Revista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CP06/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Teoria/UD05CP06.pdf" afterDir="false" />
+>>>>>>> 13a4cbfa88e30accea09efe174a1f28ea26280d9:Tema5/EjerciciosTema5/CasoPractico6/.idea/workspace.xml
+>>>>>>> fd63304f75f36f2126bbe9d06a28d29d8b2a960f
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +54,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -39,13 +62,58 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+=======
+<<<<<<< HEAD:Tema5/EjerciciosTema5/CasoPractico3/.idea/workspace.xml
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Antonio Cordero/Desktop/DAW_CESUR/ProgramacionCESUR/Tema5/EjerciciosTema5/CasoPractico3&quot;,
+>>>>>>> fd63304f75f36f2126bbe9d06a28d29d8b2a960f
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+<<<<<<< HEAD
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+=======
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.145" />
+      </set>
+    </attachedChunks>
+  </component>
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+>>>>>>> 13a4cbfa88e30accea09efe174a1f28ea26280d9:Tema5/EjerciciosTema5/CasoPractico6/.idea/workspace.xml
+>>>>>>> fd63304f75f36f2126bbe9d06a28d29d8b2a960f
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,10 +121,21 @@
       <created>1734007068855</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD:Tema5/EjerciciosTema5/CasoPractico3/.idea/workspace.xml
+      <updated>1733836157602</updated>
+      <workItem from="1733836158730" duration="779000" />
+      <workItem from="1733944010561" duration="2206000" />
+      <workItem from="1733946389530" duration="116000" />
+=======
       <updated>1734007068855</updated>
+<<<<<<< HEAD
       <workItem from="1734007069864" duration="2456000" />
       <workItem from="1734599733625" duration="811000" />
       <workItem from="1734607959010" duration="693000" />
+=======
+      <workItem from="1734007069864" duration="2393000" />
+>>>>>>> 13a4cbfa88e30accea09efe174a1f28ea26280d9:Tema5/EjerciciosTema5/CasoPractico6/.idea/workspace.xml
+>>>>>>> fd63304f75f36f2126bbe9d06a28d29d8b2a960f
     </task>
     <servers />
   </component>
