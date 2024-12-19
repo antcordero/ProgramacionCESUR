@@ -14,6 +14,6 @@ public class EjemploEstatico {
         Persona persona3 = new Persona("Carlos");
         System.out.println(persona3);
 
-        System.out.println("contadorPersonas: " + Persona.getContadorPersonas());
+        System.out.println("\n contadorPersonas: " + Persona.getContadorPersonas());
     }
 }

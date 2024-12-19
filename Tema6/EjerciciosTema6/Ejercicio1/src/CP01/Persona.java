@@ -32,10 +32,9 @@ public class Persona {
     //toString
     @Override
     public String toString() {
-        return "Persona{" +
-                "idPersona=" + idPersona +
-                ", nombre='" + nombre + '\'' +
-                '}';
+        return "idPersona: " + idPersona +
+                ", nombre: " + nombre +
+                ", contadorPersonas:  " + contadorPersonas;
     }
 
 }
