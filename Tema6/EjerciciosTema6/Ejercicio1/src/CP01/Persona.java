@@ -3,22 +3,16 @@ package CP01;
 public class Persona {
     private int idPersona;
     private String nombre;
-    private static int ContadorPersonas = 0;
+    private static int contadorPersonas = 0;
 
     //Constructor
     public Persona(String nombre) {
         this.nombre = nombre;
+        contadorPersonas++;
+        this.idPersona = contadorPersonas;
     }
 
     //Getters - Setters
-    public int getIdPersona() {
-        return idPersona;
-    }
-
-    public void setIdPersona(int idPersona) {
-        this.idPersona = idPersona;
-    }
-
     public String getNombre() {
         return nombre;
     }
@@ -28,11 +22,11 @@ public class Persona {
     }
 
     public static int getContadorPersonas() {
-        return ContadorPersonas;
+        return contadorPersonas;
     }
 
     public static void setContadorPersonas(int contadorPersonas) {
-        ContadorPersonas++;
+        Persona.contadorPersonas = contadorPersonas;
     }
 
     //toString
@@ -43,7 +37,5 @@ public class Persona {
                 ", nombre='" + nombre + '\'' +
                 '}';
     }
-
-    //Métodos
 
 }
