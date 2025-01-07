@@ -21,6 +21,12 @@
 
 <h3>Tema 5- Arrays/Tipo Enumerado</h3>
 <ul>
-  <li>Casos Prácticos 1 a ?</li>
+  <li>Casos Prácticos 1 a 6</li>
   <li>Apuntes Arrays/TipoEnumerado</li>
+</ul>
+
+<h3>Tema 6- Paquetes/Static/Final</h3>
+<ul>
+  <li>Casos Prácticos 1 a ?</li>
+  <li>Apuntes package, static, final</li>
 </ul>
