@@ -47,7 +47,7 @@ public final class Math2<miArray> {
         for (int i = 0; i < numeros.length; i++) {
             resultado *= numeros[1];
         }
-        return Math.pow(resultado,(1/ numeros.length)*1.0);
+        return Math.pow(resultado,(1.0/ numeros.length));
     }
 
 }
