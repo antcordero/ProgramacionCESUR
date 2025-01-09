@@ -43,7 +43,11 @@ public final class Math2<miArray> {
     }
 
     public static double mediaGeometrica(double[] numeros) {
-
+        double resultado = 1;
+        for (int i = 0; i < numeros.length; i++) {
+            resultado *= numeros[1];
+        }
+        return Math.pow(resultado,(1/ numeros.length)*1.0);
     }
 
 }
