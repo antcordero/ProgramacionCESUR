@@ -12,7 +12,7 @@ public final class Cliente {
     //
     public Cliente(String nombre, double descuentoFidelidad, int umbralPedidos) {
         this.nombre = nombre;
-        Pedido[] pedidos = new Pedido[umbralPedidos];
+        this.pedidos = new Pedido[umbralPedidos];
         this.contPedidos++;
         this.descuentoFidelidad = descuentoFidelidad;
         this.umbralPedidos = umbralPedidos;
@@ -62,7 +62,7 @@ public final class Cliente {
      */
     public double calcularDescuentoFidelidad() {
         double resultado = 0;
-        if (this.umbralPedidos > 5) {
+        if (this.contPedidos > 5) {
             resultado = this.contPedidos * this.descuentoFidelidad;
         }
         return resultado;
