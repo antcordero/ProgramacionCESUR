@@ -15,8 +15,9 @@ public class Restaurante {
         for (int i = 0; i < platos.length; i++) {
 
             precioPlato = platos[i].getPrecio();
-            
-            resultado += precioPlato - (platos[i].getPrecio() - platos[i].calcularPrecioFinal()) - cliente.calcularDescuentoFidelidad();
+            descuentoPlato = platos[i].getPrecio() - platos[i].calcularPrecioFinal();
+
+            resultado += precioPlato - (descuentoPlato - cliente.calcularDescuentoFidelidad());
 
         }
 
