@@ -26,4 +26,6 @@ public class ProductoElectronico extends Producto {
                 "garantia=" + garantia +
                 '}';
     }
+
+    /*Falta el método sobreescrito de mostrarDetalles, pero en esta clase con los meses de garantía*/
 }
