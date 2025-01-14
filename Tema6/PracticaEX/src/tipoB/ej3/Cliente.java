@@ -32,7 +32,7 @@ public final class Cliente {
     }
 
     public void setPedidos(int umbralPedidos) {
-        Pedido[] pedidos = new Pedido[umbralPedidos];
+        this.pedidos = new Pedido[umbralPedidos];
     }
 
     public double getDescuentoFidelidad() {

@@ -67,13 +67,16 @@ public class Pedido {
      */
     public double calcularTotalPrecioPedido() {
         double total = 0;
+        double resultado = 0;
 
         //recorrer array de platos que se pide un cliente
         for (int i = 0; i < platos.length; i++) {
             //precio del plato - el descuento de fidelidad
-            total = total + ( platos[i].calcularPrecioFinal() - (cliente.calcularDescuentoFidelidad()) );
+            total = total + ( platos[i].calcularPrecioFinal() );
         }
 
-        return total;
+        resultado = total - cliente.calcularDescuentoFidelidad();
+
+        return resultado;
     }
 }
