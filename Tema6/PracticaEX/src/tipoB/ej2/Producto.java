@@ -86,6 +86,7 @@ public class Producto {
             case ROPA -> descuento = 0.90; //10%
             case ELECTRONICA -> descuento = 0.85; //85%
             case ALIMENTACION -> descuento = 0.95; //5%
+            default -> descuento = 1; //sin descuento
         }
 
         return descuento;
