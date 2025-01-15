@@ -25,12 +25,23 @@ public class Carrito {
         this.contadorProductos = contadorProductos;
     }
 
-    public void agregarProducto(Producto producto){
-        if (contadorProductos < productos.length){
-            productos[contadorProductos] = producto;
-            contadorProductos++;
+    public void introducirProducto(Producto producto) {
+        int i = 0;
+        boolean encontrado = false;
+        while (i<productos.length && !encontrado) {
+            if (productos[i] == null) {
+                productos[i] = producto;
+                encontrado = true;
+            }
+            else {
+                i++;
+            }
+        }
+
+        if (!encontrado){
+            System.out.println("introducido correctamente");
         } else {
-            System.out.println("No se pueden añadir más productos al sistema.");
+            System.out.println("no se pueden introducir mas productos");
         }
     }
 
