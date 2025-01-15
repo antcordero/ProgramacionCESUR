@@ -17,6 +17,5 @@ public class Test {
         CuentaBancaria[] arrayCuentas = {c1, c2, c3};
 
         System.out.printf("Total de dinero en el banco: %.2f€\n", Banco.calcularTotalDineroCuentas(arrayCuentas));
-
     }
 }
