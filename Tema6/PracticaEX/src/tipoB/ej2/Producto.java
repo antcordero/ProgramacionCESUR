@@ -5,7 +5,7 @@ public class Producto {
     private CategoriaProducto categoria;
     private double precio;
     private int cantidadEnStock;
-    private static int descuentoGlobal = 10;
+    private static final int descuentoGlobal = 10;
 
     //
     public Producto(String nombre, String categoria, double precio, int cantidadEnStock) {
@@ -97,13 +97,13 @@ public class Producto {
     /*
      *  Calcular precio final por UNIDAD
      */
-    public double calcularPrecioUnidad(Producto producto) {
+    public double calcularPrecioUnidad() {
         double resultado = 0;
 
-        if (producto.getCantidadEnStock()!=0) {
-            resultado = producto.getPrecio() * producto.calcularDescuento();
-        } else if (producto.getCantidadEnStock()==0) {
-            resultado = producto.getPrecio();
+        if (this.cantidadEnStock>0) {
+            resultado = this.precio * calcularDescuento();
+        } else  {
+            resultado = precio;
         }
         return resultado;
     }
@@ -111,9 +111,9 @@ public class Producto {
     /*
      *  Metodo para mostrar info
      */
-    public void mostarInfoUnidad(Producto p) {
+    public void mostarInfoUnidad() {
 
         System.out.printf("Producto: %s - Precio final por unidad: %.2f - Stock: %d\n",
-                p.getNombre(), calcularPrecioUnidad(p), p.getCantidadEnStock());
+                this.nombre, calcularPrecioUnidad(), this.cantidadEnStock);
     }
 }

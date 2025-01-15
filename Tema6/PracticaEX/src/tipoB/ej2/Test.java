@@ -16,9 +16,9 @@ public class Test {
 
         //Resultado
         System.out.println("Resultado: ");
-        p1.mostarInfoUnidad(p1);
-        p2.mostarInfoUnidad(p2);
-        p3.mostarInfoUnidad(p3);
+        p1.mostarInfoUnidad();
+        p2.mostarInfoUnidad();
+        p3.mostarInfoUnidad();
 
         //Cálculo del precio total
         System.out.printf("Total del inventario: %.2f€\n", inventario.calcularPrecioTotal(arrayProductos));
