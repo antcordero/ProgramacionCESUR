@@ -25,7 +25,7 @@ public class Carrito {
         this.contadorProductos = contadorProductos;
     }
 
-    public void introducirProducto(Producto producto) {
+    public void agregarProducto(Producto producto) {
         int i = 0;
         boolean encontrado = false;
         while (i<productos.length && !encontrado) {
