@@ -8,11 +8,11 @@ public class Test {
         Producto p2 = new Producto("Camiseta", "ropa", 25, 50);
         Producto p3 = new Producto("Manzanas", "alimentacion", 2.50, 200);
 
-        //agregar a un array
-        Producto[] arrayProductos = {p1, p2, p3};
-
         //inventario
-        Inventario inventario = new Inventario(arrayProductos);
+        Inventario inventario = new Inventario(10);
+        inventario.agregarProducto(p1);
+        inventario.agregarProducto(p2);
+        inventario.agregarProducto(p3);
 
         //Resultado
         System.out.println("Resultado: ");
@@ -21,7 +21,7 @@ public class Test {
         p3.mostarInfoUnidad();
 
         //Cálculo del precio total
-        System.out.printf("Total del inventario: %.2f€\n", inventario.calcularPrecioTotal(arrayProductos));
+        System.out.printf("Total del inventario: %.2f€\n", inventario.calcularPrecioTotal());
 
     }
 }

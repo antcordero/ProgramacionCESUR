@@ -9,8 +9,8 @@ public class Inventario {
 
     //
 
-    public Inventario(Producto[] productos) {
-        this.productos = productos;
+    public Inventario(int capacidad) {
+        this.productos = new Producto[capacidad];
     }
 
     //
@@ -42,6 +42,8 @@ public class Inventario {
                 productos[i]=producto;
                 encontrado = true;
                 System.out.println("Producto: " + productos[i].getNombre() + " añadido a inventario.");
+            } else {
+                System.out.println("No hay espacio para más unidades.");
             }
             i++;
         }
@@ -56,7 +58,7 @@ public class Inventario {
      *  Descuento global para todos los productos,
      *  que se aplíca al precio después de los descuentos individuales.
      */
-    public double calcularPrecioTotal(Producto[] productos) {
+    public double calcularPrecioTotal() {
         double total = 0;
 
         for (int i = 0; i < productos.length; i++) {
