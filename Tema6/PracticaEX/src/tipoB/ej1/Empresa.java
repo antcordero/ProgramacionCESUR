@@ -1,18 +1,41 @@
 package tipoB.ej1;
 
 public class Empresa {
+    private final Empleado[] empleados;
+    private int contadorEmpleados = 0;
 
-    //Métodos
+    public Empresa(int capacidadEmpleados) {
+        this.empleados = new Empleado[capacidadEmpleados];
+        this.contadorEmpleados++;
+    }
 
     /*
-     *   metodo que calcule el salario total de todos los empleados usando un array de Empleado como parámetro.
+     *  Metodo para agregar empleados
      */
-    public double calcularSalarioGlobal(Empleado[] empleados) {
+    public void agregarEmpleado(Empleado empleado) {
+        int i=0;
+        boolean encontrado = false;
+        while (i<empleados.length && encontrado == false) {
+            if (empleados[i] == null) {
+                empleados[i] = empleado;
+                encontrado = true;
+            }
+            i++;
+        }
+    }
+
+    /*
+     *  Metodo para calcular el salario global
+     */
+    public double calcularSalarioGlobal() {
         double resultado = 0;
-
-        
-
+        for (Empleado empleado : empleados) {
+            if (empleado != null) {
+                resultado += empleado.calcularSalarioUnitario();
+            }
+        }
         return resultado;
     }
 
 }
+

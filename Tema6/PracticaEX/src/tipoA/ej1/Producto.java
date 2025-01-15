@@ -35,7 +35,7 @@ public class Producto {
         comprobarCategoriaProducto(categoriaProducto);
     }
 
-    public void comprobarCategoriaProducto(String categoriaProducto){
+    private void comprobarCategoriaProducto(String categoriaProducto){
         switch (categoriaProducto.toLowerCase()){
             case "ELECTRONICA" -> this.categoriaProducto = CategoriaProducto.ELECTRONICA;
             case "ROPA" -> this.categoriaProducto = CategoriaProducto.ROPA;

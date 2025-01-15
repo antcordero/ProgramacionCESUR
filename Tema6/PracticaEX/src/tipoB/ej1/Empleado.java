@@ -4,14 +4,14 @@ public class Empleado {
     private String nombre;
     private Rol rolEmpleado;
     private double salarioBase;
-    private final double bonoBase; //aplicable a todos los empleado por igual
+    private final double bonoBase; //aplicable a todos los empleados por igual
 
     //
     public Empleado(String nombre, String rolEmpleado, double salarioBase) {
         this.nombre = nombre;
         comprobarRol(rolEmpleado);
         this.salarioBase = salarioBase;
-        this.bonoBase = 100.00;
+        bonoBase = 100.00;
     }
 
     //
@@ -66,6 +66,29 @@ public class Empleado {
             case "empleado" -> this.rolEmpleado = Rol.EMPLEADO;
         }
     }
+
+    /*
+     *  Calcular el salario final de cada empleado en función de su rol y un bono estático.
+     *  Para:
+     *      - admin: 500
+     *      - gerente: 1000
+     *      - empleado: 100
+     */
+    public double calcularSalarioUnitario() {
+        double resultado = 0;
+
+        switch (rolEmpleado) {
+            case ADMIN -> resultado += this.salarioBase + 500 + bonoBase;
+            case GERENTE -> resultado += this.salarioBase + 1000 + bonoBase;
+            case EMPLEADO -> resultado += this.salarioBase + 100 + bonoBase;
+        }
+
+        return resultado;
+    }
+
+    /*
+     *   Los empleados deben ser gestionados en un array dentro de la clase Empresa.
+     */
 
 
 

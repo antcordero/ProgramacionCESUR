@@ -34,7 +34,7 @@ public class Carrito {
         }
     }
 
-    public double calcularTotalPagar(){
+    private double calcularTotalPagar(){
         double sumaTotal = 0;
         for (int i = 0; i < productos.length; i++) {
             if (productos[i] != null){
