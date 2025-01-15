@@ -52,9 +52,6 @@ public class Producto {
         return descuentoGlobal;
     }
 
-    public static void setDescuentoGlobal(int descuentoGlobal) {
-        Producto.descuentoGlobal = descuentoGlobal;
-    }
 
     //
     @Override
