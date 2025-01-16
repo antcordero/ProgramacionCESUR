@@ -27,6 +27,7 @@
 
 <h3>Tema 6- Paquetes/Static/Final</h3>
 <ul>
-  <li>Casos Prácticos 1 a ?</li>
+  <li>Casos Prácticos 1 a 5</li>
   <li>Apuntes package, static, final</li>
+  <li><em>Parcial TipoB Temas 5 y 6 - 16/01/2025</em></li>
 </ul>

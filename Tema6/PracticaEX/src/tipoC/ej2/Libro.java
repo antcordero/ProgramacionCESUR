@@ -54,7 +54,7 @@ public class Libro {
                 '}';
     }
 
-    
+
     //Métodos
     /*
      *  comprobarCategoria(categoria)
