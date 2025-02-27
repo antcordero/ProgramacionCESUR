@@ -19,15 +19,21 @@
   <li><em>Parcial TipoB Temas 3 y 4 - 28/11/2024</em></li>
 </ul>
 
-<h3>Tema 5- Arrays/Tipo Enumerado</h3>
+<h3>Tema 5 - Arrays/Tipo Enumerado</h3>
 <ul>
   <li>Casos Prácticos 1 a 6</li>
   <li>Apuntes Arrays/TipoEnumerado</li>
 </ul>
 
-<h3>Tema 6- Paquetes/Static/Final</h3>
+<h3>Tema 6 - Paquetes/Static/Final</h3>
 <ul>
   <li>Casos Prácticos 1 a 5</li>
   <li>Apuntes package, static, final</li>
   <li><em>Parcial TipoB Temas 5 y 6 - 16/01/2025</em></li>
+</ul>
+
+<h3>Tema 6 - Excepciones</h3>
+<ul>
+  <li>Casos Prácticos 1 a ?</li>
+  <li>Apuntes Excepciones y Gestión de Errores</li>
 </ul>
