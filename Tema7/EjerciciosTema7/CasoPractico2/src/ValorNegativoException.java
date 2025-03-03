@@ -1,6 +1,6 @@
 public class ValorNegativoException extends Exception {
 
-    public ValorNegativoException (double valor) {
-        super();
+    public ValorNegativoException (double  diametro) {
+        super("Error. Valor Negativo: " + diametro);
     }
 }

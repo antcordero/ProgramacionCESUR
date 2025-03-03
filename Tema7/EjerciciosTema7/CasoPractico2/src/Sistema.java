@@ -5,29 +5,69 @@ public class Sistema {
 
         final int MAX = 10;
 
-        Mundo[] miArray = new Mundo[MAX];
+        Mundo[] planetas = new Mundo[MAX];
 
-        for (int i = 0; i < miArray.length; i++) {
-            miArray[i] = new Mundo();
+        //Crear bucle for que recorre el array planetas y instancia un objeto mundo en cada posición
+        for (int i = 0; i < planetas.length; i++) {
+            planetas[i] = new Mundo();
         }
 
         Scanner sc = new Scanner(System.in);
 
-        for (int i = 0; i < miArray.length; i++) {
+        //Crear bucle for que asigna a cada planeta un nombre
+        for (int i = 0; i < planetas.length; i++) {
             System.out.print("Nombre del planeta: ");
             String nombre = sc.nextLine();
-            miArray[i].setNombre(nombre);
+            planetas[i].setNombre(nombre);
 
             try {
                 System.out.print("Diámetro del planeta: ");
                 double diametro = Double.parseDouble(sc.nextLine());
-                miArray[i].setDiametro(diametro);
+                if (diametro < 0) {
+                    throw new ValorNegativoException(diametro);
+                }
+
+                planetas[i].setDiametro(diametro);
+
             } catch (NumberFormatException nfe) {
                 System.out.println("Error, el valor debe ser numérico. Volver a introducir el valor");
                 i--;
             } catch (ValorNegativoException vne) {
-
+                System.out.println(vne.getMessage());
+                i--;
+            } finally {
+                System.out.println("Finally 1 hecho");
             }
+        }
+
+        sc.close();
+
+        //Bucle while que recorra el array mientras no encuentre diámetros menores a 100
+        boolean encontrado = false;
+        int cont = 0;
+        while (!encontrado) {
+
+            if (planetas[cont].getDiametro()>100) {
+                encontrado = true;
+            }
+
+            try {
+                if (encontrado) {
+                    throw new DiametroSuperiorExceptionplanetas(planetas[cont].getDiametro());
+                } else if (planetas[cont].getDiametro()<20) {
+                    throw new DiametroInferiorException(planetas[cont].getDiametro());
+                }
+            } catch (DiametroSuperiorExceptionplanetas dmsup) {
+                System.out.println(dmsup.getMessage());
+            } catch (DiametroInferiorException dminf) {
+                System.out.println(dminf.getMessage());
+            } catch (Exception e) {
+                System.out.println("Ha ocurrido una excepción.");
+            } finally {
+                System.out.println("Finally 2 hecho");
+            }
+
+            cont++;
 
         }
 
