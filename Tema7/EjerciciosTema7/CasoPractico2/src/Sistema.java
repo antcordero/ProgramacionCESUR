@@ -23,12 +23,11 @@ public class Sistema {
             try {
                 System.out.print("Diámetro del planeta: ");
                 double diametro = Double.parseDouble(sc.nextLine());
-                if (diametro < 0) {
+                if (diametro <= 0) {
                     throw new ValorNegativoException(diametro);
+                } else {
+                    planetas[i].setDiametro(diametro);
                 }
-
-                planetas[i].setDiametro(diametro);
-
             } catch (NumberFormatException nfe) {
                 System.out.println("Error, el valor debe ser numérico. Volver a introducir el valor");
                 i--;
@@ -45,7 +44,7 @@ public class Sistema {
         //Bucle while que recorra el array mientras no encuentre diámetros menores a 100
         boolean encontrado = false;
         int cont = 0;
-        while (!encontrado) {
+        while (!encontrado && cont < planetas.length) {
 
             if (planetas[cont].getDiametro()>100) {
                 encontrado = true;
@@ -65,9 +64,10 @@ public class Sistema {
                 System.out.println("Ha ocurrido una excepción.");
             } finally {
                 System.out.println("Finally 2 hecho");
+                cont++;
             }
 
-            cont++;
+            //cont++;
 
         }
 
