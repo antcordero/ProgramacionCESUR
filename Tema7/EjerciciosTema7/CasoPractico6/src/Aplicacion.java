@@ -73,6 +73,7 @@ public class Aplicacion {
 
                 case 4:
                     System.out.println("¡Gracias por usar nuestro banco!s");
+                    break;
             }
         } while (opcion != 4);
 
