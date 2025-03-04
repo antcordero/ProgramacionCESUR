@@ -26,14 +26,12 @@ public class Simulacro {
                     contFrio++;
                     throw new DemasiadoFrio(temp);
                 }
-            } catch (DemasiadoCalor calorException) {
-                System.out.println(calorException.getMessage());
-            } catch (DemasiadoFrio frioException) {
-                System.out.println(frioException.getMessage());
+            } catch (DemasiadoCalor | DemasiadoFrio e) {
+                System.out.println(e.getMessage());
             }
 
             i++;
-            System.out.printf("%dº marca > %dºC\n", i, temp);
+            System.out.printf("%dºMarca > %dºC\n", i, temp);
         }
 
     }
