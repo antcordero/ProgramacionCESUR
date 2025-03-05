@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="SolucionesProfesor">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/UD07CP02.zip!/" />
+      <root url="jar://$PROJECT_DIR$/UD07CP03.zip!/" />
+      <root url="jar://$PROJECT_DIR$/UD07CP01.zip!/" />
+      <root url="jar://$PROJECT_DIR$/UD07CP06.zip!/" />
+      <root url="jar://$PROJECT_DIR$/UD07CP05.zip!/" />
+      <root url="jar://$PROJECT_DIR$/UD07CP04.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
