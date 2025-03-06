@@ -71,17 +71,21 @@ public class SistemaSeguridad {
 
         Intento nuevoIntento = new Intento(System.currentTimeMillis(), resultado);
 
+        
+
         //descartar el últmo registros y mover
         for (int i = historial.length - 1; i > 0; i--) {
             historial[i] = historial[i - 1];
         }
 
-        historial[0] = nuevoIntento;
+        historial[historial.length-1] = nuevoIntento;
 
 
         if (numIntentos < historial.length) {
             numIntentos++;
         }
+
+
     }
 
     public void mostrarHistorial() {
