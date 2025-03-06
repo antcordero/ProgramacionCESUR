@@ -10,24 +10,12 @@ public class SistemaSeguridad {
     private int numIntentos;
 
 
-    //Constructores
-    public SistemaSeguridad(String calveCorrecta, int consecutiveFailures, long lockExpirationTime, long baseLockDuration, int lockMultiplier, Intento historial, int numIntentos) {
-        this.calveCorrecta = calveCorrecta;
-        this.consecutiveFailures = consecutiveFailures;
-        this.lockExpirationTime = lockExpirationTime;
-        this.baseLockDuration = baseLockDuration;
-        this.lockMultiplier = lockMultiplier;
-        this.historial = new Intento[numIntentos];
-        this.numIntentos = 3;
-    }
-
+    //Constructor
     public SistemaSeguridad() {
         this.calveCorrecta = "seguro123";
         this.historial = new Intento[numIntentos];
         this.numIntentos = 3;
     }
-
-    //getters - setters
 
 
     //Métodos
@@ -71,20 +59,28 @@ public class SistemaSeguridad {
 
         Intento nuevoIntento = new Intento(System.currentTimeMillis(), resultado);
 
-        
+        boolean lleno = false;
 
-        //descartar el últmo registros y mover
-        for (int i = historial.length - 1; i > 0; i--) {
-            historial[i] = historial[i - 1];
+        for (int i = 0; i < historial.length ; i++) {
+            if (historial[i]==null){
+                lleno = true;
+            }
         }
 
-        historial[historial.length-1] = nuevoIntento;
+        //descartar el últmo registros y mover si el array está lleno
+        if (lleno == true) {
+            for (int i = historial.length - 1; i > 0; i--) {
+                historial[i] = historial[i - 1];
+            }
 
+            historial[historial.length-1] = nuevoIntento;
 
-        if (numIntentos < historial.length) {
+            
+        } else if (numIntentos < historial.length) {
+
             numIntentos++;
-        }
 
+        }
 
     }
 
