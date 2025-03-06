@@ -17,11 +17,14 @@ public class SistemaSeguridad {
         this.lockExpirationTime = lockExpirationTime;
         this.baseLockDuration = baseLockDuration;
         this.lockMultiplier = lockMultiplier;
-        this.historial = new Intento[]{};
+        this.historial = new Intento[numIntentos];
         this.numIntentos = 3;
     }
 
     public SistemaSeguridad() {
+        this.calveCorrecta = "seguro123";
+        this.historial = new Intento[numIntentos];
+        this.numIntentos = 3;
     }
 
     //getters - setters
@@ -39,20 +42,25 @@ public class SistemaSeguridad {
         }
 
         //Verifica contraseña
-        if (clave.equals(clave)) {
+        if (calveCorrecta.equals(clave)) {
+
             registrarIntento("Éxito");
             consecutiveFailures = 0;
             lockMultiplier = 1;
-            System.out.println("Acceso concedido.");
+            System.out.println("Acceso concedido");
+
         } else {
+
             consecutiveFailures++;
             registrarIntento("Fallo");
 
             if (consecutiveFailures >= 3) {
+
                 lockExpirationTime = tiempoAhora + baseLockDuration * lockMultiplier;
                 lockMultiplier *= 2;
                 consecutiveFailures = 0;
                 throw new DemasiadosIntentosException();
+
             } else {
                 throw new CredencialesIncorrectasException("Credenciales incorrectas. Intento " + consecutiveFailures + " de 3.");
             }
@@ -70,7 +78,7 @@ public class SistemaSeguridad {
 
         historial[0] = nuevoIntento;
 
-        //
+
         if (numIntentos < historial.length) {
             numIntentos++;
         }

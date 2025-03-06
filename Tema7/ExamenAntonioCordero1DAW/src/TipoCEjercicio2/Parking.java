@@ -20,6 +20,7 @@ public class Parking {
     }
 
     //Métodos
+
     public void ingresarVehiculo(String matricula) throws ParkingLlenoException, VehiculoDuplicadoException {
         //lleno?
         if (numVehiculos >= CAPACIDAD_MAXIMA) {
@@ -36,7 +37,7 @@ public class Parking {
 
         Vehiculos nuevoVehiculo = new Vehiculos(matricula);
         vehiculos[numVehiculos] = nuevoVehiculo;
-        System.out.println("Vehículo con matrícula: " + matricula +" añadido correctamente");
+        System.out.println("Vehículo con matrícula: " + matricula +" añadido corretamente");
         numVehiculos++;
     }
 

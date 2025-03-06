@@ -5,7 +5,7 @@ public class Intento {
     private long timestamp;
     private String resultado;
 
-    //
+    //Constructor
     public Intento(long timestamp, String resultado) {
         //this.timestamp = System.currentTimeMillis();
         this.resultado = resultado;
@@ -15,7 +15,7 @@ public class Intento {
 
     }
 
-    //
+    //getters - setters
     public long getTimestamp() {
         return timestamp;
     }
@@ -32,7 +32,7 @@ public class Intento {
         this.resultado = resultado;
     }
 
-    //
+    //toString
     @Override
     public String toString() {
         return "Intento en " +  timestamp + "ms - Resultado:" + resultado + "\n";
