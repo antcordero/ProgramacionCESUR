@@ -26,7 +26,7 @@ public class SistemaSeguridad {
         //BLOQUEADA?
         if (tiempoAhora < lockExpirationTime) {
             long tiempoRestante = lockExpirationTime - tiempoAhora;
-            throw new CuentaBloqueadaException("Cuenta bloqueada. Intenta de nuevo en " + tiempoRestante / 1000 + " segundos.");
+            throw new CuentaBloqueadaException("Cuenta bloqueada. Intenta de nuevo en " + tiempoRestante + " segundos.");
         }
 
         //Verifica contraseña
@@ -57,7 +57,7 @@ public class SistemaSeguridad {
 
     private void registrarIntento(String resultado) {
 
-        Intento nuevoIntento = new Intento(System.currentTimeMillis(), resultado);
+        Intento nuevo = new Intento(System.currentTimeMillis(), resultado);
 
         boolean lleno = false;
 
@@ -73,7 +73,7 @@ public class SistemaSeguridad {
                 historial[i] = historial[i - 1];
             }
 
-            historial[historial.length-1] = nuevoIntento;
+            historial[historial.length-1] = nuevo;
 
 
         } else if (numIntentos < historial.length) {
@@ -85,9 +85,13 @@ public class SistemaSeguridad {
     }
 
     public void mostrarHistorial() {
+
         System.out.println("Historial de intentos:");
         for (int i = 0; i < numIntentos; i++) {
-            System.out.println(historial[i].toString());
+            if (historial[i]!=null) {
+                System.out.println(historial[i].toString());
+            }
+
         }
     }
 

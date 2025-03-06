@@ -24,7 +24,7 @@ public class Parking {
     public void ingresarVehiculo(String matricula) throws ParkingLlenoException, VehiculoDuplicadoException {
         //lleno?
         if (numVehiculos >= CAPACIDAD_MAXIMA) {
-            throw new ParkingLlenoException("El parking está lleno");
+            throw new ParkingLlenoException("parking lleno");
         }
 
         //misma matricula?
@@ -37,7 +37,9 @@ public class Parking {
 
         Vehiculos nuevoVehiculo = new Vehiculos(matricula);
         vehiculos[numVehiculos] = nuevoVehiculo;
+
         System.out.println("Vehículo con matrícula: " + matricula +" añadido corretamente");
+
         numVehiculos++;
     }
 
@@ -50,10 +52,13 @@ public class Parking {
         while (encontrado==false) {
 
             if (vehiculos[i].getMatricula().equals(matricula)){
+
                 vehiculos[i]=null;
                 encontrado = true;
                 System.out.println("Vehículo con matrícula: " + matricula +" borrado correctamente");
-                i=-1;
+
+                i--;
+
             } else {
                 throw new VehiculoNoEncontradoException("No está el vehículo con matrícula: " + matricula);
             }
