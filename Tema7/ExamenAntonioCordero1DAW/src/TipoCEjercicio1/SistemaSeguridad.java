@@ -75,7 +75,7 @@ public class SistemaSeguridad {
 
             historial[historial.length-1] = nuevoIntento;
 
-            
+
         } else if (numIntentos < historial.length) {
 
             numIntentos++;
