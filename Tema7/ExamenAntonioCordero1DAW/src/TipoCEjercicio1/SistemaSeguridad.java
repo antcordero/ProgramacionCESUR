@@ -46,7 +46,6 @@ public class SistemaSeguridad {
 
                 lockExpirationTime = tiempoAhora + baseLockDuration * lockMultiplier;
                 lockMultiplier *= 2;
-                consecutiveFailures = 0;
                 throw new DemasiadosIntentosException();
 
             } else {
@@ -90,6 +89,7 @@ public class SistemaSeguridad {
         for (int i = 0; i < numIntentos; i++) {
             if (historial[i]!=null) {
                 System.out.println(historial[i].toString());
+
             }
 
         }
