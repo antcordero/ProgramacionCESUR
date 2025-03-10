@@ -32,8 +32,15 @@
   <li><em>Parcial TipoB Temas 5 y 6 - 16/01/2025</em></li>
 </ul>
 
-<h3>Tema 6 - Excepciones</h3>
+<h3>Tema 7 - Excepciones</h3>
+<ul>
+  <li>Casos Prácticos 1 a 6</li>
+  <li>Apuntes Excepciones y Gestión de Errores</li>
+  <li><em>Parcial TipoC Tema 7 - 06/03/2025</em></li>
+</ul>
+
+<h3>Tema 8 - Almacenamiento de datos / Ficheros / Swing</h3>
 <ul>
   <li>Casos Prácticos 1 a ?</li>
-  <li>Apuntes Excepciones y Gestión de Errores</li>
+  <li>Apuntes Almacenamiento de datos, Ficheros - Java Swing</li>
 </ul>
