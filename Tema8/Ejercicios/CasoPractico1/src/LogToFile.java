@@ -64,3 +64,43 @@ public class LogToFile {
     }
 
 }
+
+/* ******* Solución Hamza
+
+package Ejer1;import java.io.*;import java.util.Scanner;
+
+public class Cadena {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String cadenas;
+        File archivo = new File("log.txt");
+        BufferedReader br;
+        PrintWriter pw;
+        boolean salir = false;
+        try {
+            FileReader fr = new FileReader(archivo);
+            br = new BufferedReader(fr);
+            pw = new PrintWriter("log.txt");
+            while (!salir) {
+                System.out.print("Introduzca un nombre (fin para terminar): ");
+                cadenas = sc.nextLine();
+                if (cadenas.equalsIgnoreCase("fin")) {
+                    salir = true;
+                } else {
+                    pw.println(cadenas);
+                }
+            }
+            pw.close();
+            String linea;
+            while ((linea = br.readLine()) != null) {
+                System.out.println(linea);
+            }
+            br.close();
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+}
+*/
