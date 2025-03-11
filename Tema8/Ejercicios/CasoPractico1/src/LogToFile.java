@@ -67,7 +67,9 @@ public class LogToFile {
 
 /* ******* Solución Hamza
 
-package Ejer1;import java.io.*;import java.util.Scanner;
+package Ejer1;
+import java.io.*;
+import java.util.Scanner;
 
 public class Cadena {
     public static void main(String[] args) {
