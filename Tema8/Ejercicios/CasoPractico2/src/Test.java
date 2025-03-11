@@ -24,7 +24,11 @@ public class Test {
             }
 
             //Comprobar si el archivo es de texto o binario
-            if ()
+            if (ruta.contains(".txt") || ruta.contains(".csv")) {
+                //texto
+            } else {
+                //binario
+            }
 
 
         } catch (Exception e){

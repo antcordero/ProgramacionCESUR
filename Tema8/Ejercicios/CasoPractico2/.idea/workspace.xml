@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bccde01-e8ee-4584-90c2-6a3da9ab9bb2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CasoPractico2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misArchivos/log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pruebas/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pruebas/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pruebas/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pruebas/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pruebas/Pruebas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pruebas/misArchivos/logs.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pruebas/src/LogtoFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UD08CP02.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP01.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741698068466</updated>
-      <workItem from="1741698069497" duration="1184000" />
+      <workItem from="1741698069497" duration="1285000" />
     </task>
     <servers />
   </component>
