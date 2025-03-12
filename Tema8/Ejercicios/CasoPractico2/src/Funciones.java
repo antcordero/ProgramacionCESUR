@@ -34,7 +34,8 @@ public class Funciones {
             entrada = new FileInputStream(origen);
             salida = new FileOutputStream(destino);
 
-            byte[] buffer = new byte[1024]; // 1 KB
+            //Escribir bytes (1KB = 1024Bytes)
+            byte[] buffer = new byte[1024];
             int bytesLeidos;
             int totalBytes = 0;
 
@@ -43,6 +44,7 @@ public class Funciones {
                 totalBytes += bytesLeidos;
                 System.out.println("Copiados: " + totalBytes + " bytes...");
             }
+
         } finally {
             if (entrada != null) {
                 entrada.close();
