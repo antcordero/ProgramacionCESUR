@@ -1,41 +1,46 @@
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
 import java.util.Scanner;
 
 public class Test {
-    public static void main(String[] args) throws IOException {
-
-        String filePath = "misArchivos\\logs.txt";
-        String ruta = "";
+    public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
-        //Escribir la ruta y ver si existe
-        System.out.print("Escriba la ruta del archivo: ");
+        System.out.print("Introduce la ruta del archivo a copiar: ");
+        String rutaArchivo = sc.nextLine();
+
+        //
+        Funciones funciones = new Funciones();
+
+        File archivo = new File(rutaArchivo);
+
+        //Verificar si el archivo existe
+        if (!archivo.exists()) {
+            System.out.println("Error: El archivo no existe.");
+            return;
+        }
+
+        //Determinar si es texto o binario por la extensión
+        String nombreArchivo = archivo.getName();
+        String extension = nombreArchivo.substring(nombreArchivo.lastIndexOf(".") + 1);
+        boolean esTexto = extension.equals("txt") || extension.equals("csv");
+
+        //Definir la ruta del archivo de copia
+        String rutaCopia = archivo.getParent() + File.separator + archivo.getName() + ".bak";
 
         try {
-            ruta = sc.nextLine();
-
-            File archivo = new File(filePath);
-            if (!ruta.equals(filePath)) {
-                //Crea el archivo si no existe
-                System.out.println("El archivo no existe, se crea.");
-                archivo.createNewFile();
-            }
-
-            //Comprobar si el archivo es de texto o binario
-            if (ruta.contains(".txt") || ruta.contains(".csv")) {
-                //texto
+            if (esTexto) {
+                funciones.copiarArchivoTexto(archivo, new File(rutaCopia));
             } else {
-                //binario
+                funciones.copiarArchivoBinario(archivo, new File(rutaCopia));
             }
-
-
-        } catch (Exception e){
-            System.out.println("Error al escribir la ruta");
+            System.out.println("Copia de seguridad creada en: " + rutaCopia);
+        } catch (IOException e) {
+            System.out.println("Error al copiar el archivo: " + e.getMessage());
         } finally {
             sc.close();
         }
-
     }
+
+
 }
