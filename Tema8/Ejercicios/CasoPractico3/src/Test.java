@@ -69,7 +69,7 @@ public class Test {
         PrintWriter pw = null;
         BufferedReader br2 = null;
         PrintWriter pw2 = null;
-        
+
 
         //Fusionar contenido si existe: (Primer archivo)
         if(respuesta.toUpperCase().equals("S")) {
