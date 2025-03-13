@@ -123,6 +123,8 @@ public class Test {
                 }
             }
 
+            System.out.println("\nContenido de los archivos copiados en " + fFusionado.getPath());
+
         } else if (respuesta.toUpperCase().equals("N")) {
             System.out.println("\nFin del programa");
         }
