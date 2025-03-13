@@ -13,10 +13,8 @@
       <change afterPath="$PROJECT_DIR$/../CasoPractico3/CasoPractico3.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CasoPractico3/a1/A.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CasoPractico3/a1/B.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/af/A_B.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CasoPractico3/src/ExtensionException.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CasoPractico3/src/NoExisteFicheroException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/src/Test.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../UD08CP03.pdf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP02.zip" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP02/.gitignore" afterDir="false" />
@@ -26,6 +24,7 @@
       <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP02/UD08CP02.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP02/src/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasoPractico3/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CasoPractico3/src/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

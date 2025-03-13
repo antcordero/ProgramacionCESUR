@@ -27,7 +27,7 @@ public class Test {
                 throw new ExtensionException();
             }
 
-            System.out.println("Indica la ruta del archivo fusionado: ");
+            System.out.print("Indica la ruta del archivo fusionado: ");
             archivoFusionado = sc.nextLine();
             if (!archivoFusionado.contains(".txt")) {
                 throw new ExtensionException();
@@ -67,6 +67,8 @@ public class Test {
 
         BufferedReader br = null;
         PrintWriter pw = null;
+        BufferedReader br2 = null;
+        PrintWriter pw2 = null;
 
         //Fusionar contenido si existe: (Primer archivo)
         if(respuesta.toUpperCase().equals("S")) {
@@ -99,13 +101,13 @@ public class Test {
 
             //Segundo Archivo
             try{
-                br = new BufferedReader(new FileReader(f1));
-                pw = new PrintWriter(archivoFusionado);
-                String linea = br.readLine();
+                br2 = new BufferedReader(new FileReader(f1));
+                pw2 = new PrintWriter(archivoFusionado);
+                String linea = br2.readLine();
 
                 while (linea != null) {
-                    pw.println(linea);
-                    linea = br.readLine();
+                    pw2.println(linea);
+                    linea = br2.readLine();
                 }
 
             } catch (FileNotFoundException e) {
@@ -114,10 +116,10 @@ public class Test {
                 System.out.println("Error al leer el archivo");
             } finally {
                 try {
-                    if (br != null)
-                        br.close();
-                    if (pw != null)
-                        pw.close();
+                    if (br2 != null)
+                        br2.close();
+                    if (pw2 != null)
+                        pw2.close();
                 } catch (IOException e) {
                     System.out.println("Error al cerrar el archivo");
                 }
