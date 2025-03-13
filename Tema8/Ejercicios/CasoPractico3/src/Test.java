@@ -129,11 +129,7 @@ public class Test {
             System.out.println("\nFin del programa");
         }
 
-
-
         sc.close();
 
-
     }
-
 }
