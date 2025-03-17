@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bccde01-e8ee-4584-90c2-6a3da9ab9bb2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/CasoPractico3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/a1/A.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/a1/B.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/src/ExtensionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/src/NoExisteFicheroException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UD08CP03.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP02.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP02/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP02/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP02/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP02/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP02/UD08CP02.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP02/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CasoPractico3/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CasoPractico3/src/Test.java" afterDir="false" />
-    </list>
+    <list default="true" id="7bccde01-e8ee-4584-90c2-6a3da9ab9bb2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +42,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/AntonioCorderoMolina/Desktop/Programación/Tema8/Ejercicios/CasoPractico2",
+    "last_opened_file_path": "C:/Users/AntonioCorderoMolina/Desktop/Programación/Tema8/Ejercicios/CasoPractico3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -91,6 +70,7 @@
       <workItem from="1741698069497" duration="1285000" />
       <workItem from="1741803995857" duration="1794000" />
       <workItem from="1741856128764" duration="7324000" />
+      <workItem from="1742201781356" duration="20000" />
     </task>
     <servers />
   </component>

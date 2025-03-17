@@ -1,8 +1,9 @@
 import java.io.*;
+import java.nio.Buffer;
 import java.util.Scanner;
 
 public class Test {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
 
         Scanner sc = new Scanner(System.in);
@@ -57,18 +58,23 @@ public class Test {
         }
 
         //Copiar y preguntar antes de copiar si la ruta del archivo fusionado ya existe
-
         String respuesta = "";
 
-        if (fFusionado.exists()) {
-            System.out.print("Quiere sobrescribir el contenido del archivo? (S | N): ");
-            respuesta = sc.nextLine();
+        try {
+            if (fFusionado.exists()) {
+                System.out.print("Quiere sobrescribir el contenido del archivo? (S | N): ");
+                respuesta = sc.nextLine();
+            }
+        }catch (IllegalArgumentException ie) {
+            System.out.println("ERROR en el input." + ie.getMessage());
         }
 
-        BufferedReader br = null;
-        PrintWriter pw = null;
+
+        BufferedReader br1 = null;
         BufferedReader br2 = null;
-        PrintWriter pw2 = null;
+
+        FileWriter pw = new FileWriter("A_B.txt");
+        BufferedWriter escritor = new BufferedWriter(pw);
 
 
         //Fusionar contenido si existe: (Primer archivo)
@@ -76,13 +82,11 @@ public class Test {
 
             //Primer Archivo
             try{
-                br = new BufferedReader(new FileReader(f1));
-                pw = new PrintWriter(archivoFusionado);
-                String linea = br.readLine();
+                br1 = new BufferedReader(new FileReader(f1));
+                String linea = br1.readLine();
 
                 while (linea != null) {
-                    pw.println(linea);
-                    linea = br.readLine();
+                    linea = br1.readLine();
                 }
 
             } catch (FileNotFoundException e) {
@@ -91,8 +95,8 @@ public class Test {
                 System.out.println("Error al leer el archivo");
             } finally {
                 try {
-                    if (br != null)
-                        br.close();
+                    if (br1 != null)
+                        br1.close();
                     if (pw != null)
                         pw.close();
                 } catch (IOException e) {
@@ -101,13 +105,11 @@ public class Test {
             }
 
             //Segundo Archivo
-            try{
-                br2 = new BufferedReader(new FileReader(f1));
-                pw2 = new PrintWriter(archivoFusionado);
+            try {
+                br2 = new BufferedReader(new FileReader(f2));
                 String linea = br2.readLine();
 
                 while (linea != null) {
-                    pw2.println(linea);
                     linea = br2.readLine();
                 }
 
@@ -119,14 +121,17 @@ public class Test {
                 try {
                     if (br2 != null)
                         br2.close();
-                    if (pw2 != null)
-                        pw2.close();
+                    if (pw != null)
+                        pw.close();
                 } catch (IOException e) {
                     System.out.println("Error al cerrar el archivo");
                 }
             }
 
-            System.out.println("\nContenido de los archivos copiados en " + fFusionado.getPath());
+
+            System.out.println("\nContenido de los archivos copiados en: " + fFusionado.getPath());
+            System.out.println("\nContenido de los archivos copiados en (getParent): " + fFusionado.getParent());
+            System.out.println("\nContenido de los archivos copiados en (getParentFile): " + fFusionado.getParentFile());
 
         } else if (respuesta.toUpperCase().equals("N")) {
             System.out.println("\nFin del programa");
