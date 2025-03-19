@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ef7fe59-1f08-4d95-8896-ddeef617ad99" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CasoPractico4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contactos.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Contactos.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Contactos.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Funciones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UD08CP04.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP03/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP03/UD08CP03.iml" afterDir="false" />
-    </list>
+    <list default="true" id="5ef7fe59-1f08-4d95-8896-ddeef617ad99" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1742298604370</updated>
       <workItem from="1742298605384" duration="5369000" />
-      <workItem from="1742304051953" duration="30000" />
+      <workItem from="1742304051953" duration="148000" />
     </task>
     <servers />
   </component>
