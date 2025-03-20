@@ -58,8 +58,7 @@ public class Test {
             } else if (contTotalArchivo2 > contTotalArchivo1) {
                 System.out.print("El arcvhivo 2 tiene más líneas\n");
             }
-
-
+            
         } catch (FileNotFoundException e) {
             System.out.println("Archivo no encontrado.");
         } catch (IOException e) {
