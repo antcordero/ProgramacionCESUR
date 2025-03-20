@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ef7fe59-1f08-4d95-8896-ddeef617ad99" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Prueba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practica/CP01/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practica/CP01/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practica/CP01/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practica/CP01/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practica/CP01/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practica/CP01/CP01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practica/CP01/src/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Funciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Funciones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +50,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/AntonioCorderoMolina/Desktop/Programación/Tema8/SolucionesProfesor/UD08CP03",
+    "last_opened_file_path": "C:/Users/AntonioCorderoMolina/Desktop/Programación/Tema8/Practica",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -62,7 +69,7 @@
       <updated>1742298604370</updated>
       <workItem from="1742298605384" duration="5369000" />
       <workItem from="1742304051953" duration="148000" />
-      <workItem from="1742461634406" duration="4084000" />
+      <workItem from="1742461634406" duration="5625000" />
     </task>
     <servers />
   </component>
