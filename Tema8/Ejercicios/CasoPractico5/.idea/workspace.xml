@@ -4,17 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c591787-00ea-4056-93a6-e165ff98cca3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios/CasoPractico5/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios/CasoPractico5/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios/CasoPractico5/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios/CasoPractico5/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios/CasoPractico5/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios/CasoPractico5/CasoPractico5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios/CasoPractico5/src/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios/CasoPractico5/src/archivo_modificado.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios/CasoPractico5/src/archivo_original.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios/UD08CP05.pdf" afterDir="false" />
+    <list default="true" id="944fdc69-3b4e-4d03-a019-02addda751e3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CasoPractico5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/archivo_modificado.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/archivo_original.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UD08CP05.pdf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP04.zip" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP04/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP04/.idea/.gitignore" afterDir="false" />
@@ -24,8 +24,8 @@
       <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP04/contactos.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP04/src/Contacto.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP04/src/GestorContactos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ejercicios/CasoPractico4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ejercicios/CasoPractico4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasoPractico4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CasoPractico4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practica/CP01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica/CP01/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,15 +43,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
+  "associatedIndex": 8
 }]]></component>
-  <component name="ProjectId" id="2uZveDV18fEPHP0pQ6YeECbACeZ" />
+  <component name="ProjectId" id="2ua7iZYujubGE7Drt0Dibdy9lGI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -67,16 +71,19 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1c591787-00ea-4056-93a6-e165ff98cca3" name="Changes" comment="" />
-      <created>1742469004793</created>
+      <changelist id="944fdc69-3b4e-4d03-a019-02addda751e3" name="Changes" comment="" />
+      <created>1742474962983</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1742469004793</updated>
-      <workItem from="1742469005802" duration="1233000" />
+      <updated>1742474962983</updated>
+      <workItem from="1742474963978" duration="1740000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

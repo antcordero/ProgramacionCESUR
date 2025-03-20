@@ -1,0 +1,10 @@
+Este
+archivo
+que vamos
+a intentar
+comparar
+para detectar
+algún fallo
+que debe
+detectar el
+programa
