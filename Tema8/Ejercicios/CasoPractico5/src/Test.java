@@ -54,9 +54,9 @@ public class Test {
             }
 
             if (contTotalArchivo1 > contTotalArchivo2) {
-                System.out.printf("El archivo 1 tiene más líneas\n");
+                System.out.print("El archivo 1 tiene más líneas\n");
             } else if (contTotalArchivo2 > contTotalArchivo1) {
-                System.out.printf("El arcvhivo 2 tiene más líneas\n");
+                System.out.print("El arcvhivo 2 tiene más líneas\n");
             }
 
 
