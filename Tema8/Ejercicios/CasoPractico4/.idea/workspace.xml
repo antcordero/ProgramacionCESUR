@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ef7fe59-1f08-4d95-8896-ddeef617ad99" name="Changes" comment="" />
+    <list default="true" id="5ef7fe59-1f08-4d95-8896-ddeef617ad99" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Funciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Funciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +43,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/AntonioCorderoMolina/Desktop/Programación/Tema8/Ejercicios/CasoPractico4",
+    "last_opened_file_path": "C:/Users/AntonioCorderoMolina/Desktop/Programación/Tema8/SolucionesProfesor/UD08CP03",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,6 +62,7 @@
       <updated>1742298604370</updated>
       <workItem from="1742298605384" duration="5369000" />
       <workItem from="1742304051953" duration="148000" />
+      <workItem from="1742461634406" duration="4084000" />
     </task>
     <servers />
   </component>

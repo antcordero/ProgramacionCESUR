@@ -1,6 +1,4 @@
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.*;
 
 public class Funciones {
 
@@ -15,18 +13,27 @@ public class Funciones {
      */
     public static void agregarContacto(String nombre, String tlf, String email) throws IOException {
 
-        String contacto = nombre + ", " + tlf + ", " + email;
+        File rutaTxt = new File("Contactos.txt");
+        File rutaCSV = new File("Contactos.csv");
 
-        FileWriter fw = null;
-        PrintWriter pw = null;
+        FileReader fr = new FileReader(rutaTxt);
+
+        BufferedReader br = new BufferedReader(fr);
+        PrintWriter pw = new PrintWriter(rutaTxt);
 
         try {
 
-            fw = new FileWriter("src\\Contactos.txt", true);
-            pw = new PrintWriter(fw);
-            pw.println(contacto);
+            String linea = br.readLine();
+
+            while (linea != null) {
+                pw.println(linea);
+                linea = br.readLine();
+            }
 
         } finally {
+            if (br!=null) {
+                br.close();
+            }
             if (pw != null) {
                 pw.close();
             }
