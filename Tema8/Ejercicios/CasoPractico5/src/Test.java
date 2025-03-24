@@ -40,7 +40,7 @@ public class Test {
 
             while (linea1 != null && linea2 != null) {
                 if (!linea1.equals(linea2)) {
-                    System.out.printf("⚠️ Diferencia en la linea %d: \n", + contLineas);
+                    System.out.printf("\n⚠️ Diferencia en la linea %d: \n", + contLineas);
                     //Mostrar errores
                     /*
                     System.out.print("🚩 Archivo 1: ");
