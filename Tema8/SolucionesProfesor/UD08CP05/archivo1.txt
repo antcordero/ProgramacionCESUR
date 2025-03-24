@@ -1,0 +1,10 @@
+Hola
+este
+es
+un
+archivo
+para comprobar
+si funciona
+o no
+este
+programa

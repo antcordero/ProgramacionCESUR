@@ -5,8 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="944fdc69-3b4e-4d03-a019-02addda751e3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../PruebaProyectoSwing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaProyectoSwing/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaProyectoSwing/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaProyectoSwing/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaProyectoSwing/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaProyectoSwing/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaProyectoSwing/PruebaProyectoSwing.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaProyectoSwing/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaProyectoSwing/src/Prueba.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaProyectoSwing/src/Prueba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP05.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP05/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP05/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP05/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP05/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP05/UD08CP05.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP05/archivo1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP05/src/Comparador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practica/CP01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica/CP01/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +65,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -59,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1742474962983</updated>
       <workItem from="1742474963978" duration="2044000" />
-      <workItem from="1742807076376" duration="2839000" />
+      <workItem from="1742807076376" duration="4947000" />
     </task>
     <servers />
   </component>
