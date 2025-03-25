@@ -5,24 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c591787-00ea-4056-93a6-e165ff98cca3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios/PruebaProyectoSwing/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios/PruebaProyectoSwing/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios/PruebaProyectoSwing/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios/PruebaProyectoSwing/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios/PruebaProyectoSwing/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios/PruebaProyectoSwing/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios/PruebaProyectoSwing/PruebaProyectoSwing.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios/PruebaProyectoSwing/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios/PruebaProyectoSwing/src/Prueba.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicios/PruebaProyectoSwing/src/Prueba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP05.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP05/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP05/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP05/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP05/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP05/UD08CP05.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP05/archivo1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP05/src/Comparador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Ejercicios/CasoPractico5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ejercicios/CasoPractico5/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -56,7 +38,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/AntonioCorderoMolina/Desktop/Programación/Tema8/Ejercicios/CasoPractico5",
+    "last_opened_file_path": "C:/Users/AntonioCorderoMolina/Desktop/Programación/Tema8/Ejercicios/PruebaProyectoSwing",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,7 +56,8 @@
       <updated>1742469004793</updated>
       <workItem from="1742469005802" duration="1233000" />
       <workItem from="1742799625925" duration="2000" />
-      <workItem from="1742807035694" duration="634000" />
+      <workItem from="1742807035694" duration="635000" />
+      <workItem from="1742902452950" duration="21000" />
     </task>
     <servers />
   </component>
