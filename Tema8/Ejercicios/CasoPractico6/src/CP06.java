@@ -28,7 +28,7 @@ public class CP06 extends JFrame {
         setBounds(600,350,750,250);
 
         //Generar número aleatorio cada vez que se inicie la app
-        this.numSecreto = r.nextInt(1,101);
+        this.numSecreto = r.nextInt(100) + 1;
         this.cont = 0;
 
         //Eventos
@@ -63,13 +63,39 @@ public class CP06 extends JFrame {
         lbl_contIntentos.setText("Intentos: " + cont);
 
         //recogerNúmero del textField
-        if (numIntroducido > numSecreto) {
-            lbl_Pista.setText("El número secreto (" + txtField_EscribirNum.getText() + ") es menor " + numSecreto );
-        } else if (numIntroducido < numSecreto) {
-            lbl_Pista.setText("El número secreto (" + txtField_EscribirNum.getText() + ") es mayor " + numSecreto);
-        } else {
-            lbl_Pista.setText("¡Correcto! Has adivinado el número secreto en " + cont + " intentos");
+        if (e.getSource() == btn_Adivinar) {
+            try {
+
+                numIntroducido = Integer.parseInt(txtField_EscribirNum.getText());
+                cont++;
+                lbl_contIntentos.setText("Intentos: " + cont);
+
+                // Lógica de comparación
+                if (numIntroducido > numSecreto) {
+                    lbl_Pista.setText("El secreto (" + numIntroducido + ") es menor");
+                } else if (numIntroducido < numSecreto) {
+                    lbl_Pista.setText("El secreto (" + numIntroducido + ") es mayor");
+                } else {
+                    lbl_Pista.setText("¡Correcto! Has adivinado el número en " + cont + " intentos");
+                    btn_Adivinar.setEnabled(false);
+                }
+            } catch (NumberFormatException ex) {
+                lbl_Pista.setText("Error: Debes ingresar un número válido");
+            }
+        }
+
+
+        //Reiniciar juego
+        if (e.getSource() == btn_nuevoJuego) {
+            numSecreto = r.nextInt(100) + 1;
+            cont = 0;
+            lbl_Pista.setText("---");
+            btn_Adivinar.setEnabled(true);
+            txtField_EscribirNum.setText("");
+            lbl_contIntentos.setText("Intentos: " + cont);
         }
 
     }
+
+
 }
