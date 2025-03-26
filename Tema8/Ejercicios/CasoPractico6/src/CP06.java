@@ -14,7 +14,7 @@ public class CP06 extends JFrame {
     private JLabel lbl_contIntentos;
     private JButton btn_nuevoJuego;
 
-    private int numAleatorio;
+    private int numSecreto;
     private int numIntroducido;
     private int cont;
 
@@ -28,28 +28,32 @@ public class CP06 extends JFrame {
         setBounds(600,350,750,250);
 
         //Generar número aleatorio cada vez que se inicie la app
-        this.numAleatorio = r.nextInt(1,101);
+        this.numSecreto = r.nextInt(1,101);
         this.cont = 0;
 
         //Eventos
+        //caja de texto para escribir números
         txtField_EscribirNum.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 acciones(e);
             }
         });
+        //Boton Adivinar
         btn_Adivinar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 acciones(e);
             }
         });
+        //Boton nuevo juego
         btn_nuevoJuego.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 acciones(e);
             }
         });
+
     }
 
     //Método
@@ -59,8 +63,12 @@ public class CP06 extends JFrame {
         lbl_contIntentos.setText("Intentos: " + cont);
 
         //recogerNúmero del textField
-        if (numIntroducido == numAleatorio) {
-
+        if (numIntroducido > numSecreto) {
+            lbl_Pista.setText("El número secreto (" + txtField_EscribirNum.getText() + ") es menor " + numSecreto );
+        } else if (numIntroducido < numSecreto) {
+            lbl_Pista.setText("El número secreto (" + txtField_EscribirNum.getText() + ") es mayor " + numSecreto);
+        } else {
+            lbl_Pista.setText("¡Correcto! Has adivinado el número secreto en " + cont + " intentos");
         }
 
     }
