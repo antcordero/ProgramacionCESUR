@@ -41,14 +41,14 @@ public class CP06 extends JFrame {
             }
         });
         */
-        //Boton Adivinar
+        //Botón Adivinar
         btn_Adivinar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 acciones(e);
             }
         });
-        //Boton nuevo juego
+        //Botón nuevo juego
         btn_nuevoJuego.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
