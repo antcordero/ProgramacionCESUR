@@ -60,8 +60,7 @@ public class CP06 extends JFrame {
 
     //Método
     public void acciones(ActionEvent e) {
-
-        cont++;
+        
         lbl_contIntentos.setText("Intentos: " + cont);
 
         //recogerNúmero del textField
