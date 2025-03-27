@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="App_CP07">
+  <grid id="27dc6" binding="Panel_Principal" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="436f1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Gestión de Calificaciones"/>
+        </properties>
+      </component>
+      <grid id="c497e" binding="Panel2" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="51ad2" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="2"/>
+              <text value="Nombre del estudiante:"/>
+            </properties>
+          </component>
+          <component id="10de0" class="javax.swing.JTextField" binding="textField_nombre">
+            <constraints/>
+            <properties>
+              <columns value="20"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="6cc96" binding="Panel3" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="ab2a8" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Calificación:"/>
+            </properties>
+          </component>
+          <component id="6ba79" class="javax.swing.JTextField" binding="textField_nota">
+            <constraints/>
+            <properties>
+              <columns value="20"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="949d9" binding="Panel4" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="95578" class="javax.swing.JTextArea" binding="textArea_info">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="150"/>
+              </grid>
+            </constraints>
+            <properties>
+              <columns value="0"/>
+              <editable value="false"/>
+              <font name="Consolas" size="18" style="1"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="5418c" binding="Panel5" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="8e7a1" class="javax.swing.JButton" binding="btn_addNota">
+            <constraints/>
+            <properties>
+              <text value="Agregar Nota"/>
+            </properties>
+          </component>
+          <component id="391c7" class="javax.swing.JButton" binding="btn_saveNota">
+            <constraints/>
+            <properties>
+              <text value="Guardar Nota"/>
+            </properties>
+          </component>
+          <component id="717c6" class="javax.swing.JButton" binding="btn_loadNota">
+            <constraints/>
+            <properties>
+              <text value="Cargar Nota"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
