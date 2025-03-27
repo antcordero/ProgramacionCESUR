@@ -71,16 +71,21 @@ public class CP06 extends JFrame {
                 lbl_contIntentos.setText("Intentos: " + cont);
 
                 // Lógica de comparación
-                if (numIntroducido > numSecreto) {
-                    lbl_Pista.setText("El secreto (" + numIntroducido + ") es menor");
+                if (numIntroducido<1 || numIntroducido>100) {
+                    //lbl_Pista.setText("Número introducido fuera de rango");
+                    JOptionPane.showMessageDialog(null,"Número introducido fuera de rango");
+                } else if (numIntroducido > numSecreto) {
+                    lbl_Pista.setText("El secreto es menor");
                 } else if (numIntroducido < numSecreto) {
-                    lbl_Pista.setText("El secreto (" + numIntroducido + ") es mayor");
+                    lbl_Pista.setText("El secreto es mayor");
                 } else {
                     lbl_Pista.setText("¡Correcto! Has adivinado el número en " + cont + " intentos");
                     btn_Adivinar.setEnabled(false);
+                    txtField_EscribirNum.setEnabled(false);
                 }
             } catch (NumberFormatException ex) {
-                lbl_Pista.setText("Error: Debes ingresar un número válido");
+                //lbl_Pista.setText("Error: Debes ingresar un número válido");
+                JOptionPane.showMessageDialog(null, "Error: Debes ingresar un número válido");
             }
         }
 
@@ -90,9 +95,11 @@ public class CP06 extends JFrame {
             numSecreto = r.nextInt(100) + 1;
             cont = 0;
             lbl_Pista.setText("---");
-            btn_Adivinar.setEnabled(true);
             txtField_EscribirNum.setText("");
             lbl_contIntentos.setText("Intentos: " + cont);
+
+            btn_Adivinar.setEnabled(true);
+            txtField_EscribirNum.setEnabled(true);
         }
 
     }
