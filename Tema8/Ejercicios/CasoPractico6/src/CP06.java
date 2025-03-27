@@ -74,7 +74,7 @@ public class CP06 extends JFrame {
                 // Lógica de comparación
                 if (numIntroducido<1 || numIntroducido>100) {
                     //lbl_Pista.setText("Número introducido fuera de rango");
-                    JOptionPane.showMessageDialog(null,"Número introducido fuera de rango");
+                    JOptionPane.showMessageDialog(null,"Número introducido fuera de rango","ERROR de fuera de Rango", JOptionPane.ERROR_MESSAGE);
                 } else if (numIntroducido > numSecreto) {
                     lbl_Pista.setText("El secreto es menor");
                 } else if (numIntroducido < numSecreto) {
@@ -86,7 +86,7 @@ public class CP06 extends JFrame {
                 }
             } catch (NumberFormatException ex) {
                 //lbl_Pista.setText("Error: Debes ingresar un número válido");
-                JOptionPane.showMessageDialog(null, "Error: Debes ingresar un número válido");
+                JOptionPane.showMessageDialog(null, "Debes ingresar un número válido", "ERROR de formato", JOptionPane.WARNING_MESSAGE);
             }
         }
 
