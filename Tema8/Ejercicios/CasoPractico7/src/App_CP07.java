@@ -25,7 +25,7 @@ public class App_CP07 extends JFrame{
         textField_nombre.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                
+
             }
         });
 

@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4657392-2bbc-490f-8f8d-35b6a47e245a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../CasoPractico7/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico7/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico7/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico7/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico7/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico7/CasoPractico7.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico7/src/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico7/src/App_CP07.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico7/src/App_CP07.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasoPractico7/src/App_CP07.form" beforeDir="false" afterPath="$PROJECT_DIR$/../CasoPractico7/src/App_CP07.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasoPractico7/src/App_CP07.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CasoPractico7/src/App_CP07.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +59,7 @@
       <workItem from="1742907412204" duration="1564000" />
       <workItem from="1742979927934" duration="5309000" />
       <workItem from="1742990399583" duration="3000" />
-      <workItem from="1743066519200" duration="8713000" />
+      <workItem from="1743066519200" duration="8784000" />
     </task>
     <servers />
   </component>
