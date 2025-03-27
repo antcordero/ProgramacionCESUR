@@ -33,12 +33,14 @@ public class CP06 extends JFrame {
 
         //Eventos
         //caja de texto para escribir números
+        /*
         txtField_EscribirNum.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 acciones(e);
             }
         });
+        */
         //Boton Adivinar
         btn_Adivinar.addActionListener(new ActionListener() {
             @Override
