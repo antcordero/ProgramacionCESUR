@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4657392-2bbc-490f-8f8d-35b6a47e245a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../CasoPractico7/src/App_CP07.form" beforeDir="false" afterPath="$PROJECT_DIR$/../CasoPractico7/src/App_CP07.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CasoPractico7/src/App_CP07.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CasoPractico7/src/App_CP07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasoPractico2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CasoPractico2/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,19 +34,30 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "300",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/AntonioCorderoMolina/Desktop/Programación/Tema2/Practica/src/ZzChritsmasTree.java",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Antonio Cordero/Desktop/DAW_CESUR/ProgramacionCESUR/Tema8/Ejercicios/CasoPractico6",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,6 +70,7 @@
       <workItem from="1742979927934" duration="5309000" />
       <workItem from="1742990399583" duration="3000" />
       <workItem from="1743066519200" duration="8784000" />
+      <workItem from="1743359070280" duration="285000" />
     </task>
     <servers />
   </component>
