@@ -1,41 +1,43 @@
+package Ejercicio7;
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.io.*;
 
-public class App_CP07 extends JFrame {
-
-    //Arrays para almacenamiento
+public class GestiondeCalificaciones extends JFrame {
+    // Arrays para almacenamiento
     private String[] nombres = new String[30];
     private double[] notas = new double[30];
     private int contador = 0;
 
-    //Componentes de la interfaz Swing
+    // Componentes de tu interfaz Swing
     private JPanel panel1;
     private JButton agregarNotasButton;
-    private JButton guardarNotasButton;
     private JButton cargarNotasButton;
+    private JButton guardarNotasButton;
     private JTextField nombreDelEstudianteTextField;
     private JTextField calificaciónTextField;
     private JTextArea textArea1;
 
-    public App_CP07() {
+    public GestiondeCalificaciones() {
         setTitle("Gestión de Calificaciones");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setContentPane(panel1);
         pack();
         setLocationRelativeTo(null);
 
-        //Configurar listeners para los botones
+        // Configurar listeners para los botones
         agregarNotasButton.addActionListener(this::agregarNotaAction);
-        cargarNotasButton.addActionListener(this::guardarNotasAction);
-        guardarNotasButton.addActionListener(this::cargarNotasAction);
+        guardarNotasButton.addActionListener(this::guardarNotasAction);
+        cargarNotasButton.addActionListener(this::cargarNotasAction);
     }
 
     private void agregarNotaAction(ActionEvent e) {
         String nombre = nombreDelEstudianteTextField.getText().trim();
         String notaStr = calificaciónTextField.getText().trim();
 
-        //Validar campos
+        // Validar campos
         if (nombre.isEmpty()) {
             JOptionPane.showMessageDialog(this, "El nombre no puede estar vacío", "Error", JOptionPane.ERROR_MESSAGE);
             return;
@@ -48,7 +50,7 @@ public class App_CP07 extends JFrame {
                 return;
             }
 
-            //Verificar si el estudiante ya existe
+            // Verificar si el estudiante ya existe
             int indiceExistente = -1;
             for (int i = 0; i < contador; i++) {
                 if (nombres[i].equalsIgnoreCase(nombre)) {
@@ -58,7 +60,7 @@ public class App_CP07 extends JFrame {
             }
 
             if (indiceExistente >= 0) {
-                //Preguntar si desea modificar
+                // Preguntar si desea modificar
                 int respuesta = JOptionPane.showConfirmDialog(this,
                         "El estudiante ya existe. ¿Desea modificar su nota?",
                         "Confirmar", JOptionPane.YES_NO_OPTION);
@@ -67,7 +69,7 @@ public class App_CP07 extends JFrame {
                     notas[indiceExistente] = nota;
                 }
             } else {
-                //Agregar nuevo estudiante
+                // Agregar nuevo estudiante
                 if (contador < nombres.length) {
                     nombres[contador] = nombre;
                     notas[contador] = nota;
@@ -80,10 +82,10 @@ public class App_CP07 extends JFrame {
                 }
             }
 
-            //Actualizar el área de texto
+            // Actualizar el área de texto
             actualizarTextArea();
 
-            //Limpiar campos
+            // Limpiar campos
             nombreDelEstudianteTextField.setText("");
             calificaciónTextField.setText("");
 

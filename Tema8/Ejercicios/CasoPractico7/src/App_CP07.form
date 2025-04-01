@@ -32,7 +32,7 @@
               <text value="Nombre del estudiante:"/>
             </properties>
           </component>
-          <component id="10de0" class="javax.swing.JTextField" binding="textField_nombre">
+          <component id="10de0" class="javax.swing.JTextField" binding="nombreDelEstudianteTextField">
             <constraints/>
             <properties>
               <columns value="20"/>
@@ -55,7 +55,7 @@
               <text value="Calificación:"/>
             </properties>
           </component>
-          <component id="6ba79" class="javax.swing.JTextField" binding="textField_nota">
+          <component id="6ba79" class="javax.swing.JTextField" binding="calificacionnotasField">
             <constraints/>
             <properties>
               <columns value="20"/>
@@ -92,19 +92,19 @@
         <properties/>
         <border type="none"/>
         <children>
-          <component id="8e7a1" class="javax.swing.JButton" binding="btn_addNota">
+          <component id="8e7a1" class="javax.swing.JButton" binding="agregarNotasButton">
             <constraints/>
             <properties>
               <text value="Agregar Nota"/>
             </properties>
           </component>
-          <component id="391c7" class="javax.swing.JButton" binding="btn_saveNota">
+          <component id="391c7" class="javax.swing.JButton" binding="guardarNotasButton">
             <constraints/>
             <properties>
               <text value="Guardar Nota"/>
             </properties>
           </component>
-          <component id="717c6" class="javax.swing.JButton" binding="btn_loadNota">
+          <component id="717c6" class="javax.swing.JButton" binding="cargarNotasButton">
             <constraints/>
             <properties>
               <text value="Cargar Nota"/>
