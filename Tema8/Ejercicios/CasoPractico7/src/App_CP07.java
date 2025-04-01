@@ -11,11 +11,15 @@ public class App_CP07 extends JFrame {
 
     //Componentes de la interfaz Swing
     private JPanel panel1;
+    private JPanel Panel2;
+    private JPanel Panel3;
+    private JPanel Panel4;
+    private JPanel Panel5;
     private JButton agregarNotasButton;
     private JButton guardarNotasButton;
     private JButton cargarNotasButton;
     private JTextField nombreDelEstudianteTextField;
-    private JTextField calificaciónTextField;
+    private JTextField calificacionTextField;
     private JTextArea textArea1;
 
     public App_CP07() {
@@ -23,7 +27,7 @@ public class App_CP07 extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setContentPane(panel1);
         pack();
-        setLocationRelativeTo(null);
+        setBounds(750,300, 450,450);
 
         //Configurar listeners para los botones
         agregarNotasButton.addActionListener(this::agregarNotaAction);
@@ -33,7 +37,7 @@ public class App_CP07 extends JFrame {
 
     private void agregarNotaAction(ActionEvent e) {
         String nombre = nombreDelEstudianteTextField.getText().trim();
-        String notaStr = calificaciónTextField.getText().trim();
+        String notaStr = calificacionTextField.getText().trim();
 
         //Validar campos
         if (nombre.isEmpty()) {
@@ -85,7 +89,7 @@ public class App_CP07 extends JFrame {
 
             //Limpiar campos
             nombreDelEstudianteTextField.setText("");
-            calificaciónTextField.setText("");
+            calificacionTextField.setText("");
 
         } catch (NumberFormatException ex) {
             JOptionPane.showMessageDialog(this, "La nota debe ser un número válido", "Error", JOptionPane.ERROR_MESSAGE);
@@ -93,7 +97,7 @@ public class App_CP07 extends JFrame {
     }
 
     private void guardarNotasAction(ActionEvent e) {
-        try (PrintWriter writer = new PrintWriter(new FileWriter("notas.txt"))) {
+        try (PrintWriter writer = new PrintWriter(new FileWriter("C:\\Users\\AntonioCorderoMolina\\Desktop\\Programación\\Tema8\\Ejercicios\\CasoPractico7.\\src\\notas.txt"))) {
             for (int i = 0; i < contador; i++) {
                 writer.println(nombres[i] + " - " + notas[i]);
             }
@@ -104,7 +108,7 @@ public class App_CP07 extends JFrame {
     }
 
     private void cargarNotasAction(ActionEvent e) {
-        File archivo = new File("notas.txt");
+        File archivo = new File("C:\\Users\\AntonioCorderoMolina\\Desktop\\Programación\\Tema8\\Ejercicios\\CasoPractico7.\\src\\notas.txt");
         if (!archivo.exists()) {
             JOptionPane.showMessageDialog(this, "El archivo de notas no existe", "Error", JOptionPane.ERROR_MESSAGE);
             return;
@@ -121,7 +125,7 @@ public class App_CP07 extends JFrame {
                         notas[contador] = Double.parseDouble(partes[1]);
                         contador++;
                     } catch (NumberFormatException ex) {
-                        // Ignorar línea si la nota no es válida
+                        //Ignorar línea si la nota no es válida
                     }
                 }
             }
@@ -133,7 +137,7 @@ public class App_CP07 extends JFrame {
     }
 
     private void actualizarTextArea() {
-        textArea1.setText(""); // Limpiar el área de texto
+        textArea1.setText(""); //Limpiar el área de texto
 
         for (int i = 0; i < contador; i++) {
             textArea1.append(nombres[i] + " - " + notas[i] + "\n");
