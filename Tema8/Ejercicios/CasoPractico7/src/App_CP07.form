@@ -112,7 +112,7 @@
               <background color="-5775899"/>
               <font name="Arial" style="2"/>
               <foreground color="-16777216"/>
-              <text value="Cargar Nota"/>
+              <text value="Guardar Nota"/>
             </properties>
           </component>
           <component id="391c7" class="javax.swing.JButton" binding="guardarNotasButton">
@@ -121,7 +121,7 @@
               <background color="-5775899"/>
               <font name="Arial" style="2"/>
               <foreground color="-16777216"/>
-              <text value="Guardar Nota"/>
+              <text value="Cargar Nota"/>
             </properties>
           </component>
         </children>
