@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Calculadora">
+  <grid id="27dc6" binding="panel1" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="488"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="10b1f" class="javax.swing.JTextField" binding="Display">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="true"/>
+          <horizontalAlignment value="4"/>
+        </properties>
+      </component>
+      <grid id="1203" binding="panel2" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="b8a84" class="javax.swing.JButton" binding="btn7">
+            <constraints/>
+            <properties>
+              <text value="7"/>
+            </properties>
+          </component>
+          <component id="a2d2" class="javax.swing.JButton" binding="btn8">
+            <constraints/>
+            <properties>
+              <text value="8"/>
+            </properties>
+          </component>
+          <component id="ced3" class="javax.swing.JButton" binding="btn9">
+            <constraints/>
+            <properties>
+              <text value="9"/>
+            </properties>
+          </component>
+          <component id="3392e" class="javax.swing.JButton" binding="btnDividir">
+            <constraints/>
+            <properties>
+              <text value="/"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="f8b60" binding="panel3" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="7b732" class="javax.swing.JButton" binding="btn4">
+            <constraints/>
+            <properties>
+              <text value="4"/>
+            </properties>
+          </component>
+          <component id="e4fef" class="javax.swing.JButton" binding="btn5">
+            <constraints/>
+            <properties>
+              <text value="5"/>
+            </properties>
+          </component>
+          <component id="f037a" class="javax.swing.JButton" binding="btn6">
+            <constraints/>
+            <properties>
+              <text value="6"/>
+            </properties>
+          </component>
+          <component id="2c603" class="javax.swing.JButton" binding="btnMultiplicar">
+            <constraints/>
+            <properties>
+              <text value="x"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="2ab66" binding="panel4" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="d5d4f" class="javax.swing.JButton" binding="btn1">
+            <constraints/>
+            <properties>
+              <text value="1"/>
+            </properties>
+          </component>
+          <component id="bdb32" class="javax.swing.JButton" binding="btn2">
+            <constraints/>
+            <properties>
+              <text value="2"/>
+            </properties>
+          </component>
+          <component id="bdc11" class="javax.swing.JButton" binding="btn3">
+            <constraints/>
+            <properties>
+              <text value="3"/>
+            </properties>
+          </component>
+          <component id="4c6b2" class="javax.swing.JButton" binding="btnRestar">
+            <constraints/>
+            <properties>
+              <text value="-"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="d25b6" binding="panel5" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="1875f" class="javax.swing.JButton" binding="btnClear">
+            <constraints/>
+            <properties>
+              <text value="C"/>
+            </properties>
+          </component>
+          <component id="d62" class="javax.swing.JButton" binding="btn0">
+            <constraints/>
+            <properties>
+              <text value="0"/>
+            </properties>
+          </component>
+          <component id="7ba82" class="javax.swing.JButton" binding="btnIgual">
+            <constraints/>
+            <properties>
+              <text value="="/>
+            </properties>
+          </component>
+          <component id="624d7" class="javax.swing.JButton" binding="btnSumar">
+            <constraints/>
+            <properties>
+              <text value="+"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

@@ -46,7 +46,7 @@ public class CP06 extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 acciones(e);
-            }
+            }A
         });
         //Botón nuevo juego
         btn_nuevoJuego.addActionListener(new ActionListener() {

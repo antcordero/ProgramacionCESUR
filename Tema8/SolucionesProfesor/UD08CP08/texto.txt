@@ -1,0 +1,8 @@
+Este archivo es
+un archivo de prueba
+de la opción
+Abrir en la app
+que estamos
+desarrollando
+Y parece
+que está funcionando
