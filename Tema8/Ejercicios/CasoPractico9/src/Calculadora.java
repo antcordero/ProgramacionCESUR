@@ -2,10 +2,12 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.ComponentAdapter;
 
 public class Calculadora extends JFrame{
     private JPanel panel1;
     private JTextField Display;
+    private JLabel DisplayLabel;
     private JPanel panel2;
     private JButton btn7;
     private JButton btn8;
@@ -27,9 +29,42 @@ public class Calculadora extends JFrame{
     private JButton btnIgual;
     private JButton btnSumar;
 
-    private String num1;
-    private String num2;
+    private double num1;
+    private double num2;
     private String operando;
+    private double resultado = 0;
+
+    public double getNum1() {
+        return num1;
+    }
+
+    public void setNum1(double num1) {
+        this.num1 = num1;
+    }
+
+    public double getNum2() {
+        return num2;
+    }
+
+    public void setNum2(double num2) {
+        this.num2 = num2;
+    }
+
+    public double getResultado() {
+        return resultado;
+    }
+
+    public void setResultado(double resultado) {
+        this.resultado = resultado;
+    }
+
+    public String getOperando() {
+        return operando;
+    }
+
+    public void setOperando(String operando) {
+        this.operando = operando;
+    }
 
     public Calculadora() {
         setTitle("Calculadora Simple");
@@ -145,64 +180,78 @@ public class Calculadora extends JFrame{
 
         //Poner en el display los números
         if (e.getSource() == btn0) {
-            Display.setText("0");
+            DisplayLabel.setText("0");
         }
         if (e.getSource() == btn1) {
-            Display.setText("1");
+            DisplayLabel.setText("1");
         }
         if (e.getSource() == btn2) {
-            Display.setText("2");
+            DisplayLabel.setText("2");
         }
         if (e.getSource() == btn3) {
-            Display.setText("3");
+            DisplayLabel.setText("3");
         }
         if (e.getSource() == btn4) {
-            Display.setText("4");
+            DisplayLabel.setText("4");
         }
         if (e.getSource() == btn5) {
-            Display.setText("5");
+            DisplayLabel.setText("5");
         }
         if (e.getSource() == btn6) {
-            Display.setText("6");
+            DisplayLabel.setText("6");
         }
         if (e.getSource() == btn7) {
-            Display.setText("7");
+            DisplayLabel.setText("7");
         }
         if (e.getSource() == btn8) {
-            Display.setText("8");
+            DisplayLabel.setText("8");
         }
         if (e.getSource() == btn9) {
-            Display.setText("9");
+            DisplayLabel.setText("9");
         }
 
         //Operaciones
         if (e.getSource() == btnSumar) {
-            num1 = Display.getText();
-            Display.setText("");
-
+            DisplayLabel.setText("");
+            num1 = (Double.parseDouble(DisplayLabel.getText()));
+            num2 = (Double.parseDouble(DisplayLabel.getText()));
+            setResultado(num1 + num2);
         }
 
         if (e.getSource() == btnRestar) {
-
+            DisplayLabel.setText("");
+            num1 = (Double.parseDouble(DisplayLabel.getText()));
+            num2 = (Double.parseDouble(DisplayLabel.getText()));
+            setResultado(num1 - num2);
         }
 
         if (e.getSource() == btnMultiplicar) {
-
+            DisplayLabel.setText("");
+            num1 = (Double.parseDouble(DisplayLabel.getText()));
+            num2 = (Double.parseDouble(DisplayLabel.getText()));
+            setResultado(num1 * num2);
         }
 
         if (e.getSource() == btnDividir) {
+            DisplayLabel.setText("");
+            num1 = (Double.parseDouble(DisplayLabel.getText()));
+            num2 = (Double.parseDouble(DisplayLabel.getText()));
 
+
+            try {
+                if (num2==0) {
+                    throw new ArithmeticException("Division by zero");
+                }
+            } catch (ArithmeticException ex) {
+                JOptionPane.showMessageDialog(panel1,"No se puede dividir por cero", "Error Aritmético",JOptionPane.ERROR_MESSAGE);
+            }
+
+            setResultado(num1 / num2);
         }
 
         if (e.getSource() == btnIgual) {
-            num2 = Display.getText();
 
-            
+            DisplayLabel.setText(String.valueOf(resultado));
         }
     }
-
-
-
-
-
 }
