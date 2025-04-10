@@ -1,5 +1,9 @@
+import java.sql.SQLOutput;
+
 public class ClaseMain {
     public static void main(String[] args) {
+
+        System.out.println("\nCaso Práctico 2 - Tema 9\n");
 
         //Crear objetos
         Smartphone miSmartphone = new Smartphone("iphone15", "Apple", true);
@@ -10,6 +14,7 @@ public class ClaseMain {
         miTele.reproducirVideo("NewCastle VS Arsenal temporada 2007/2008");
 
         //Mostrar info
+        System.out.println("\nInfo del dispositivo: ");
         miSmartphone.mostrarInfo();
 
     }

@@ -21,7 +21,7 @@ public class SmartTV extends Dispositivo{
 
     //Método adicional
     public void reproducirVideo(String video) {
-        System.out.println("La SmartTV está reproduciendo un vídeo de ");
+        System.out.println("La SmartTV está reproduciendo un vídeo de " + video);
     }
 
 }
