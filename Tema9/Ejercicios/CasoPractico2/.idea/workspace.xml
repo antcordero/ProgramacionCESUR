@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f73e69a3-25ac-484e-9084-67a6a713695a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/CasoPractico3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/src/Criaturas/Criatura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/src/Criaturas/Elfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/src/Criaturas/Enano.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/src/Criaturas/Troll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/src/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UD09CP03.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD09CP02.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasoPractico3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CasoPractico3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasoPractico3/src/Criaturas/Elfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CasoPractico3/src/Criaturas/Elfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasoPractico3/src/Criaturas/Enano.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CasoPractico3/src/Criaturas/Enano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasoPractico3/src/Criaturas/Troll.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CasoPractico3/src/Criaturas/Troll.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

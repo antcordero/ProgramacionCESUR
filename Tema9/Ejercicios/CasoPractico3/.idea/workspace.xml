@@ -5,21 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="032a1806-3cc9-4686-8a4a-c082f3e1e976" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CasoPractico3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Criaturas/Criatura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Criaturas/Elfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Criaturas/Enano.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Criaturas/Troll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UD09CP03.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD09CP02.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CasoPractico2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CasoPractico2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Criaturas/Elfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Criaturas/Elfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Criaturas/Enano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Criaturas/Enano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Criaturas/Troll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Criaturas/Troll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1745230153063</updated>
-      <workItem from="1745230154044" duration="1398000" />
+      <workItem from="1745230154044" duration="1632000" />
     </task>
     <servers />
   </component>
