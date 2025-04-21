@@ -43,6 +43,27 @@ public abstract class Dispositivo implements Conectable {
     }
 
     /**
+     * Métodos implementados de la interfaz Conectable
+     *      Todos los dispositivos se ven afectados for estos métodos
+     *      Como son iguales para todos los dispositivos se implementan aquí
+     *      y ya cada clase heredada de Dispositivo tendrá los métodos para usarlos
+     */
+    @Override
+    public void conectarWifi() {
+        conectado = true;
+    }
+
+    @Override
+    public void desconectarWifi() {
+        conectado = false;
+    }
+
+    @Override
+    public boolean estaConectado() {
+        return conectado;
+    }
+
+    /**
      * Métodos adicionales
      */
 

@@ -4,21 +4,6 @@ public class SmartTV extends Dispositivo{
         super(modelo, marca, conectado);
     }
 
-    @Override
-    public void conectarWifi() {
-
-    }
-
-    @Override
-    public void desconectarWifi() {
-
-    }
-
-    @Override
-    public boolean estaConectado() {
-        return false;
-    }
-
     //Método adicional
     public void reproducirVideo(String video) {
         System.out.println("La SmartTV está reproduciendo un vídeo de " + video);

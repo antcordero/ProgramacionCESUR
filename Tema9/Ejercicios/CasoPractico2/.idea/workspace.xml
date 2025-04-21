@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f73e69a3-25ac-484e-9084-67a6a713695a" name="Changes" comment="" />
+    <list default="true" id="f73e69a3-25ac-484e-9084-67a6a713695a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dispositivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dispositivo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SmartTV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SmartTV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Smartphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Smartphone.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,9 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2vXKbd5G0jW5kvUbCiABMiCOGwZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -36,6 +41,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/AntonioCorderoMolina/Desktop/Programación/Tema9/Ejercicios/CasoPractico2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -52,6 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1744286053216</updated>
       <workItem from="1744286054240" duration="1673000" />
+      <workItem from="1745223335232" duration="2774000" />
     </task>
     <servers />
   </component>
