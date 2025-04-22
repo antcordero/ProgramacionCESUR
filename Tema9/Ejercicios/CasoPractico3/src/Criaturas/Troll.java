@@ -3,7 +3,7 @@ package Criaturas;
 public class Troll extends Criatura {
     private static final int VIDA_MAXIMA_TROLL = 150;
     private static final int FUERZA_BASE_TROLL = 25;
-    private int furia; // Atributo adicional para Trolls
+    private int furia; //Atributo adicional para Trolls
 
     public Troll(String nombre) {
         super(nombre, VIDA_MAXIMA_TROLL, FUERZA_BASE_TROLL);
@@ -16,14 +16,14 @@ public class Troll extends Criatura {
         System.out.println(nombre + " golpea con su garrote salvajemente!");
         objetivo.recibirDano(dano);
 
-        // Aumentar furia con cada ataque
+        //Aumentar furia con cada ataque
         furia += 5;
         System.out.println(nombre + " aumenta su furia a " + furia);
     }
 
     @Override
     public void recibirDano(int cantidad) {
-        // Los trolls son resistentes, reducen el daño recibido
+        //Los trolls son resistentes, reducen el daño recibido
         super.recibirDano(cantidad / 2);
     }
 }

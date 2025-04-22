@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f73e69a3-25ac-484e-9084-67a6a713695a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CasoPractico3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CasoPractico3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CasoPractico3/src/Criaturas/Elfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CasoPractico3/src/Criaturas/Elfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CasoPractico3/src/Criaturas/Enano.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CasoPractico3/src/Criaturas/Enano.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CasoPractico3/src/Criaturas/Troll.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CasoPractico3/src/Criaturas/Troll.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +43,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/AntonioCorderoMolina/Desktop/Programación/Tema9/Ejercicios/CasoPractico2",
+    "last_opened_file_path": "C:/Users/AntonioCorderoMolina/Desktop/Programación/Tema9/Ejercicios/CasoPractico3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -62,7 +60,8 @@
       <option name="presentableId" value="Default" />
       <updated>1744286053216</updated>
       <workItem from="1744286054240" duration="1673000" />
-      <workItem from="1745223335232" duration="3865000" />
+      <workItem from="1745223335232" duration="3866000" />
+      <workItem from="1745318394403" duration="71000" />
     </task>
     <servers />
   </component>

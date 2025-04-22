@@ -3,7 +3,7 @@ package Criaturas;
 public class Enano extends Criatura {
     private static final int VIDA_MAXIMA_ENANO = 100;
     private static final int FUERZA_BASE_ENANO = 20;
-    private int resistencia; // Atributo adicional para Enanos
+    private int resistencia; //Atributo adicional para Enanos
 
     public Enano(String nombre) {
         super(nombre, VIDA_MAXIMA_ENANO, FUERZA_BASE_ENANO);
@@ -19,7 +19,7 @@ public class Enano extends Criatura {
 
     @Override
     public void recibirDano(int cantidad) {
-        // Los enanos tienen resistencia al daño
+        //Los enanos tienen resistencia al daño
         super.recibirDano(Math.max(1, cantidad - resistencia));
     }
 }
