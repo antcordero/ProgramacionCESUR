@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4310441a-1bdf-442b-838a-7bf788cb2f4b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../CP02/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CP02/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CP02/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CP02/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CP02/CP02.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CP02/miArchivo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CP02/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP03/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP03/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP03/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP03/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP03/CP03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP03/fileA.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP03/fileB.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP03/fusionAB.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP03/src/ExtensionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP03/src/FicheroNoExisteException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP03/src/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1745340260735</updated>
-      <workItem from="1745340261629" duration="3869000" />
+      <workItem from="1745340261629" duration="4795000" />
     </task>
     <servers />
   </component>
