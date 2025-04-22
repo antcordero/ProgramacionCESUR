@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="032a1806-3cc9-4686-8a4a-c082f3e1e976" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../CasoPractico2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CasoPractico2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Tema8/Practica/CP04/src/Contactos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Tema8/Practica/CP04/src/GestorContactos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Tema8/Practica/CP04/src/contactos.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Tema8/SolucionesProfesor/UD08CP04/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Tema8/SolucionesProfesor/UD08CP04/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Criaturas/Elfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Criaturas/Elfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Criaturas/Enano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Criaturas/Enano.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Criaturas/Troll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Criaturas/Troll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/AntonioCorderoMolina/Desktop/Programación/Tema9/Ejercicios/CasoPractico3",
+    "last_opened_file_path": "C:/Users/AntonioCorderoMolina/Desktop/Programación/Tema8",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1745230153063</updated>
       <workItem from="1745230154044" duration="1657000" />
-      <workItem from="1745318464244" duration="43000" />
+      <workItem from="1745318464244" duration="1678000" />
     </task>
     <servers />
   </component>
