@@ -45,6 +45,56 @@ public class Contactos {
     //Métodos
 
     /**
+     * Método para eliminar contactos
+     * @param nombre
+     */
+    public void eliminarContacto(String nombre) {
+        BufferedReader br = null;
+        PrintWriter pw = null;
+        File original = new File("contactos.txt");
+        File copia = new File("contactosCopia.txt");
+        try {
+            br = new BufferedReader(new FileReader(original));
+            pw = new PrintWriter(new FileWriter(copia));
+            String linea = br.readLine();
+            boolean encontrado = false;
+
+            //leer el archivo original y línea a línea y no poner el que encuentre
+            while (linea!=null) {
+                String [] datos = linea.split(",");
+                if (!datos[0].equalsIgnoreCase(nombre)) {
+                    pw.println(linea);
+                    encontrado = true;
+                }
+                linea = br.readLine();
+            }
+
+            //Mensaje a mostrar
+            if (!encontrado) {
+                System.out.println("Contacto no encontrado");
+            } else {
+                System.out.println("Contacto eliminado correctamente!");
+            }
+
+        } catch (FileNotFoundException e) {
+            System.out.println("Archivo no encontrado");
+        } catch (IOException e) {
+            System.out.println("Error al leer el archivo");
+        } finally {
+            try {
+                if (br != null)
+                    br.close();
+                if (pw != null)
+                    pw.close();
+                original.delete();
+                copia.renameTo(original);
+            } catch (IOException e) {
+                System.out.println("Error al cerrar el archivo");
+            }
+        }
+    }
+
+    /**
      * Método para agregar contactos
      * @param nombre
      * @param numTlf
@@ -76,6 +126,11 @@ public class Contactos {
 
     }
 
+    /**
+     * Método para buscarContactos
+     * @param nombre
+     * @return
+     */
     public Contactos buscarContacto(String nombre) {
         BufferedReader br = null;
 
@@ -117,6 +172,33 @@ public class Contactos {
         }
 
         return contacto;
+    }
+
+    /**
+     * Método para listar los contactos
+     * @param name
+     */
+    public void listarContacto(String name) {
+        BufferedReader br = null;
+        try {
+            br = new BufferedReader(new FileReader("contactos.txt"));
+            String linea = br.readLine();
+            while (linea!=null){
+                System.out.println(linea);
+                linea=br.readLine();
+            }
+        } catch (FileNotFoundException e) {
+            System.out.println("No se encuentra el archivo");
+        } catch (IOException e) {
+            System.out.println("Error al leer el archivo");
+        } finally {
+            try {
+                if (br != null)
+                    br.close();
+            } catch (IOException e) {
+                System.out.println("Error al cerrar el archivo");
+            }
+        }
     }
 
 }

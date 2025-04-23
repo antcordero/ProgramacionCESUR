@@ -5,11 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4310441a-1bdf-442b-838a-7bf788cb2f4b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP05/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CP02/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CP02/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CP03/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CP03/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP05/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP05/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP010/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP010/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP010/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP010/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP010/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP010/CP010.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP010/LectorProductos.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP010/LectorProductos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP010/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP010/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP06/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP10/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicios/CasoPractico5/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ejercicios/CasoPractico5/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicios/CasoPractico5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ejercicios/CasoPractico5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CP04/src/Contactos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CP04/src/Contactos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CP04/src/GestorContactos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CP04/src/GestorContactos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP06/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP06/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP10/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP10/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1745340260735</updated>
       <workItem from="1745340261629" duration="4795000" />
-      <workItem from="1745396895718" duration="352000" />
+      <workItem from="1745396895718" duration="1023000" />
     </task>
     <servers />
   </component>

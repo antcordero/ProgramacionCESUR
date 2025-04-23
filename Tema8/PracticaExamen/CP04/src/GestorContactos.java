@@ -43,22 +43,24 @@ public class GestorContactos {
 
                 //Listar
                 case 2:
+                    System.out.print("Ingrese el nombre del contacto: ");
+                    nombre = sc.nextLine();
                     System.out.println("\n--- Lista de Contactos ---");
-
+                    contacto.listarContacto(nombre);
                     break;
 
                 //Buscar
                 case 3:
                     System.out.print("Ingrese el nombre a buscar: ");
                     nombre=sc.nextLine();
-
+                    contacto.buscarContacto(nombre);
                     break;
 
                 //Eliminar
                 case 4:
                     System.out.println("Ingrese el nombre a eliminar: ");
                     nombre=sc.nextLine();
-
+                    contacto.eliminarContacto(nombre);
                     break;
 
                 //Mensaje de salida
