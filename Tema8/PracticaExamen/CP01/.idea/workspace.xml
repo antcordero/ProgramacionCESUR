@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4310441a-1bdf-442b-838a-7bf788cb2f4b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../CP03/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CP03/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CP03/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CP03/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CP03/CP03.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CP03/fileA.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CP03/fileB.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CP03/fusionAB.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CP03/src/ExtensionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CP03/src/FicheroNoExisteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CP03/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP05/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CP02/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CP02/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CP03/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CP03/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP05/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD08CP05/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,10 +26,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2w5nN51MSpxtEG5ibJnZTmRVDw9" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -46,10 +39,13 @@
   "keyToString": {
     "Application.Test.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/AntonioCorderoMolina/Desktop/Programación/Tema8/PracticaExamen/CP01",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -66,6 +62,7 @@
       </set>
     </attachedChunks>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4310441a-1bdf-442b-838a-7bf788cb2f4b" name="Changes" comment="" />
@@ -74,6 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1745340260735</updated>
       <workItem from="1745340261629" duration="4795000" />
+      <workItem from="1745396895718" duration="352000" />
     </task>
     <servers />
   </component>
