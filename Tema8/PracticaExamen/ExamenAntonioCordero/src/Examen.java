@@ -130,8 +130,8 @@ public class Examen extends JFrame{
             sueldoMedio = suma / contador;
 
             //escribir en los label los sueldos
-            lbSueldoMedio.setText("Sueldo Medio: " + sueldoMedio + " €");
-            lbSueldoMaximo.setText("Sueldo máximo: (" + nombreEmpleadoSueldoMaximo + "): " + sueldoMaximo + " €");
+            lbSueldoMedio.setText("Sueldo Medio: " + String.format("%.2f",sueldoMedio) + " €");
+            lbSueldoMaximo.setText("Sueldo máximo: (" + nombreEmpleadoSueldoMaximo + "): " + String.format("%.2f",sueldoMaximo) + " €");
 
         } catch (FileNotFoundException e) {
             JOptionPane.showInputDialog(panel1,"Error la cargar el archivo. No existe el archivo.");
@@ -185,7 +185,7 @@ public class Examen extends JFrame{
                     }
                     suma = suma + sueldo;
                     contador++;
-                    
+
                 } else if (seleccionComboBox.equals("Todos")) {
                     //Para Todos
                     areaTexo.append("Nombre: " + datosEmp[0] + "\n" + "Sueldo: " + datosEmp[2] + "\n" + "Departamento: " + seleccionComboBox + "\n" + "\n");
@@ -205,8 +205,8 @@ public class Examen extends JFrame{
 
         //escribir en los label
         sueldoMedio = suma / contador;
-        lbSueldoMedio.setText("Sueldo Medio: " + sueldoMedio + " €");
-        lbSueldoMaximo.setText("Sueldo máximo: (" + nombreEmpleadoSueldoMaximo + "): " + sueldoMaximo + " €");
+        lbSueldoMedio.setText("Sueldo Medio: " + String.format("%.2f",sueldoMedio) + " €");
+        lbSueldoMaximo.setText("Sueldo máximo: (" + nombreEmpleadoSueldoMaximo + "): " + String.format("%.2f",sueldoMaximo) + " €");
 
         } catch (FileNotFoundException e) {
                 JOptionPane.showMessageDialog(panel1,"Error: Archivo no encontrado");
