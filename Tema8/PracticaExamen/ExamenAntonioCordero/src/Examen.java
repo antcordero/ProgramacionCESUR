@@ -26,7 +26,7 @@ public class Examen extends JFrame{
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setContentPane(panel1);
         setLocationRelativeTo(null);
-        setSize(600, 500);
+        setSize(700, 500);
 
         sueldoMedio = 0;
         suma = 0;
