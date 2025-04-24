@@ -188,7 +188,7 @@ public class Examen extends JFrame{
 
                 } else if (seleccionComboBox.equals("Todos")) {
                     //Para Todos
-                    areaTexo.append("Nombre: " + datosEmp[0] + "\n" + "Sueldo: " + datosEmp[2] + "\n" + "Departamento: " + seleccionComboBox + "\n" + "\n");
+                    areaTexo.append("Nombre: " + datosEmp[0] + "\n" + "Sueldo: " + datosEmp[2] + "\n" + "Departamento: " + seleccion + "\n" + "\n");
 
                     //sueldo máximo
                     sueldo = Double.parseDouble(datosEmp[1]);
