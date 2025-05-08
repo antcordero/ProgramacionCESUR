@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2356e539-bcb9-412d-bcfd-529e2dbdcb33" name="Changes" comment="" />
+    <list default="true" id="2356e539-bcb9-412d-bcfd-529e2dbdcb33" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../CasoPractico2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CasoPractico2/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +59,7 @@
       <updated>1746531327251</updated>
       <workItem from="1746531328262" duration="2970000" />
       <workItem from="1746598453193" duration="105000" />
-      <workItem from="1746691742698" duration="1376000" />
+      <workItem from="1746691742698" duration="1377000" />
     </task>
     <servers />
   </component>
