@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2356e539-bcb9-412d-bcfd-529e2dbdcb33" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../CasoPractico2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico2/CasoPractico2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico2/src/GestorInventario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico2/src/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD11CP01.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CasoPractico2/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasoPractico2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CasoPractico2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasoPractico2/src/GestorInventario.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CasoPractico2/src/GestorInventario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
