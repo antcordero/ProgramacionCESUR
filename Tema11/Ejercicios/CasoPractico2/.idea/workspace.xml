@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba57a98b-3f65-40e1-8030-6b768b7cc11e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CasoPractico2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GestorInventario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD11CP01.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CasoPractico1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CasoPractico1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GestorInventario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GestorInventario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Producto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1746701069822</updated>
-      <workItem from="1746701070852" duration="736000" />
+      <workItem from="1746701070852" duration="825000" />
     </task>
     <servers />
   </component>

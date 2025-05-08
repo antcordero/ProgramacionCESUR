@@ -34,7 +34,7 @@ public class Producto implements Comparable{
         this.precio = precio;
     }
 
-    
+
     @Override
     public String toString() {
         return "\n--Producto: " + "\n" +
@@ -44,7 +44,7 @@ public class Producto implements Comparable{
     }
 
     @Override
-    public int compareTo(Object o) {
+    public int compareTo(Object otro) {
         return 0;
     }
 }
