@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba57a98b-3f65-40e1-8030-6b768b7cc11e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/CasoPractico3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/librosCP03.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/prestamosCP03.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/prestamos_finalizados.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/src/GestorLibros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/src/GestorUsuarios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/src/Libro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/src/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CasoPractico3/usuariosCP03.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CasoPractico1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CasoPractico1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../librosCP03.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../usuariosCP03.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasoPractico3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CasoPractico3/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

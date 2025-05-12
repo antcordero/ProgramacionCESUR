@@ -5,41 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2ba8b6c-f0ee-4446-8dbb-13fe91e5267b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CasoPractico3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/librosCP03.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prestamosCP03.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prestamos_finalizados.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GestorLibros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GestorUsuarios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Libro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuariosCP03.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD11CP01/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD11CP01/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD11CP01/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD11CP01/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD11CP01/UD11CP01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD11CP01/src/GestorTareas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD11CP01/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD11CP01/src/Tarea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD11CP02/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD11CP02/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD11CP02/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD11CP02/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD11CP02/UD11CP02.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD11CP02/src/GestorInventario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD11CP02/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD11CP02/src/Producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CasoPractico1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CasoPractico1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CasoPractico2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CasoPractico2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../librosCP03.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../usuariosCP03.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GestorUsuarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GestorUsuarios.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1747037438511</updated>
       <workItem from="1747037439547" duration="489000" />
-      <workItem from="1747037943358" duration="2120000" />
+      <workItem from="1747037943358" duration="3468000" />
     </task>
     <servers />
   </component>
