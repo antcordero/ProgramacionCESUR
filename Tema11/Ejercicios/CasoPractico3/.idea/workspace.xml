@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f2ba8b6c-f0ee-4446-8dbb-13fe91e5267b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CasoPractico3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/librosCP03.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prestamosCP03.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prestamos_finalizados.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GestorLibros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GestorUsuarios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Libro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuariosCP03.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD11CP01/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD11CP01/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD11CP01/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD11CP01/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD11CP01/UD11CP01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD11CP01/src/GestorTareas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD11CP01/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD11CP01/src/Tarea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD11CP02/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD11CP02/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD11CP02/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD11CP02/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD11CP02/UD11CP02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD11CP02/src/GestorInventario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD11CP02/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolucionesProfesor/UD11CP02/src/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasoPractico1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CasoPractico1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasoPractico2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CasoPractico2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../librosCP03.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../usuariosCP03.csv" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2wzHMu0bvxu3owobt4sYspki5Wg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/AntonioCorderoMolina/Desktop/Programación/Tema11/SolucionesProfesor/UD11CP02",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2ba8b6c-f0ee-4446-8dbb-13fe91e5267b" name="Changes" comment="" />
+      <created>1747037438511</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747037438511</updated>
+      <workItem from="1747037439547" duration="489000" />
+      <workItem from="1747037943358" duration="2120000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
