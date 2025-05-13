@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2ba8b6c-f0ee-4446-8dbb-13fe91e5267b" name="Changes" comment="" />
+    <list default="true" id="f2ba8b6c-f0ee-4446-8dbb-13fe91e5267b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Tema12/CasosPracticos/Ej_JDBC/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Tema12/CasosPracticos/Ej_JDBC/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Tema12/CasosPracticos/Ej_JDBC/src/model/dao/AccesoBD.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Tema12/CasosPracticos/Ej_JDBC/src/model/dao/AccesoBD.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +42,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/AntonioCorderoMolina/Desktop/Programación/Tema11/Ejercicios/CasoPractico3",
+    "last_opened_file_path": "C:/Users/AntonioCorderoMolina/Desktop/Programación/Tema12/CasosPracticos/Ej_JDBC",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,7 +60,7 @@
       <updated>1747037438511</updated>
       <workItem from="1747037439547" duration="489000" />
       <workItem from="1747037943358" duration="6192000" />
-      <workItem from="1747132341426" duration="1239000" />
+      <workItem from="1747132341426" duration="2324000" />
     </task>
     <servers />
   </component>
