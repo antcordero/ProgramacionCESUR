@@ -7,7 +7,8 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-
+        GestorUsuarios gestorUsuarios;
+        GestorLibros gestorLibros;
 
         int opcion = -1;
 
