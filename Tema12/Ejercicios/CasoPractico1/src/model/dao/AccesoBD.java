@@ -12,7 +12,7 @@ public class AccesoBD {
 
     public static Connection conectarBD() throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.cj.jdbc.Driver");
-        conn= DriverManager.getConnection("jdbc:mysql://localhost/proyecto_ja?"
+        conn=DriverManager.getConnection("jdbc:mysql://localhost/proyecto_ja?"
                 + "useSSL=false&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=UTC","root","20011998");
         return conn;
     }
