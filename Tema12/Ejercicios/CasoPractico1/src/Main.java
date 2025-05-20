@@ -8,7 +8,7 @@ public class Main {
         System.out.println("Sistema de Inventario - Ingrese un comando (CONNECT para comenzar)");
 
         //instancia del objeto de inventarioDAO para tener los métodos
-        InventarioDAO inventario = null;
+        InventarioDAO inventario = new InventarioDAO();
 
         while (true) {
             System.out.print("> ");
