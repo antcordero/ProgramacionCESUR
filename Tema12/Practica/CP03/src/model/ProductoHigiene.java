@@ -1,0 +1,42 @@
+package model;
+
+public class ProductoHigiene extends Producto {
+    private boolean esDesinfectante;
+
+    public ProductoHigiene(String codigo, String nombre, String tipo, double precio, boolean esDesinfectante) {
+        super(codigo, nombre, tipo, precio);
+        this.esDesinfectante = esDesinfectante;
+    }
+
+    public boolean isEsDesinfectante() {
+        return esDesinfectante;
+    }
+
+    public void setEsDesinfectante(boolean esDesinfectante) {
+        this.esDesinfectante = esDesinfectante;
+    }
+
+    @Override
+    public String toString() {
+        return "ProductoHigiene{" + super.toString() + ", esDesinfectante=" + esDesinfectante + ", precio con IVA="+String.format("%.2f€",calcularPrecioFinal())+'}';
+    }
+
+
+    //Métodos abstractos de la clase que hereda y la interfaz que implementa
+    @Override
+    public String getTipo() {
+        return "Higiene";
+    }
+
+
+    @Override
+    public double calcularPrecioFinal() {
+        double precioFinal;
+        if (esDesinfectante) {
+            precioFinal=getPrecio()*1.10;
+        } else {
+            precioFinal=getPrecio()*1.21;
+        }
+        return precioFinal;
+    }
+}
